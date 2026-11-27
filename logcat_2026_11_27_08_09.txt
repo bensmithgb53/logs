@@ -1,0 +1,1512 @@
+2026-11-27 08:08:56 11380-11380 Zygote I Process 11380 created for com.lagradost.cloudstream3
+
+2026-11-27 08:08:56 11380-11380 st.cloudstream3 I Using generational CollectorTypeCMC GC.
+
+2026-11-27 08:08:56 11380-11380 nativeloader D Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+
+2026-11-27 08:08:56 11380-11380 ApplicationLoaders D Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+
+2026-11-27 08:08:56 11380-11380 ApplicationLoaders D Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+
+2026-11-27 08:08:56 11380-11380 nativeloader D Configuring clns-9 for other apk /data/app/~~WyOZK_nYNN1u_YnBAytFKw==/com.lagradost.cloudstream3-1lNsjggcsW9Ku5L-2GuXfw==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~WyOZK_nYNN1u_YnBAytFKw==/com.lagradost.cloudstream3-1lNsjggcsW9Ku5L-2GuXfw==/lib/arm64:/data/app/~~WyOZK_nYNN1u_YnBAytFKw==/com.lagradost.cloudstream3-1lNsjggcsW9Ku5L-2GuXfw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.lagradost.cloudstream3
+
+2026-11-27 08:08:56 11380-11380 ActivityThread D Set OS env TMPDIR to /data/user/0/com.lagradost.cloudstream3/cache
+
+2026-11-27 08:08:56 11380-11380 GraphicsEnvironment V Currently set values for:
+
+2026-11-27 08:08:56 11380-11380 GraphicsEnvironment V angle_gl_driver_selection_pkgs=[com.android.angle]
+
+2026-11-27 08:08:56 11380-11380 GraphicsEnvironment V angle_gl_driver_selection_values=[angle]
+
+2026-11-27 08:08:56 11380-11380 GraphicsEnvironment V com.lagradost.cloudstream3 is not listed in per-application setting
+
+2026-11-27 08:08:56 11380-11380 GraphicsEnvironment V No special selections for ANGLE, returning default driver choice
+
+2026-11-27 08:08:56 11380-11380 GraphicsEnvironment V Neither updatable production driver nor prerelease driver is supported.
+
+2026-11-27 08:08:56 11380-11380 nativeloader D Load /data/app/~~WyOZK_nYNN1u_YnBAytFKw==/com.lagradost.cloudstream3-1lNsjggcsW9Ku5L-2GuXfw==/lib/arm64/libconscrypt_jni.so using class loader ns clns-9 (caller=/data/app/~~WyOZK_nYNN1u_YnBAytFKw==/com.lagradost.cloudstream3-1lNsjggcsW9Ku5L-2GuXfw==/base.apk!classes8.dex): ok
+
+2026-11-27 08:08:56 11380-11380 NativeCrypto V Registering org/conscrypt/NativeCrypto's 288 native methods...
+
+2026-11-27 08:08:56 11380-11380 WM-WrkMgrInitializer D Initializing WorkManager with default configuration.
+
+2026-11-27 08:08:56 11380-11380 WM-PackageManagerHelper D Skipping component enablement for androidx.work.impl.background.systemjob.SystemJobService
+
+2026-11-27 08:08:56 11380-11380 WM-Schedulers D Created SystemJobScheduler and enabled SystemJobService
+
+2026-11-27 08:08:56 11380-11394 WM-ForceStopRunnable D The default process name was not specified.
+
+2026-11-27 08:08:56 11380-11394 WM-ForceStopRunnable D Performing cleanup operations.
+
+2026-11-27 08:08:56 11380-11400 DisplayManager I Choreographer implicitly registered for the refresh rate.
+
+2026-11-27 08:08:56 11380-11400 vulkan D searching for layers in '/data/app/~~WyOZK_nYNN1u_YnBAytFKw==/com.lagradost.cloudstream3-1lNsjggcsW9Ku5L-2GuXfw==/lib/arm64'
+
+2026-11-27 08:08:56 11380-11400 vulkan D searching for layers in '/data/app/~~WyOZK_nYNN1u_YnBAytFKw==/com.lagradost.cloudstream3-1lNsjggcsW9Ku5L-2GuXfw==/base.apk!/lib/arm64-v8a'
+
+2026-11-27 08:08:56 11380-11394 WM-ForceStopRunnable D Application was force-stopped, rescheduling.
+
+2026-11-27 08:08:56 11380-11419 WM-PackageManagerHelper D Skipping component enablement for androidx.work.impl.background.systemalarm.RescheduleReceiver
+
+2026-11-27 08:08:57 11380-11380 CompatChangeReporter D Compat change id reported: 377864165; UID 10437; state: ENABLED
+
+2026-11-27 08:08:57 11380-11380 NavComponent I Navigating to Activity: MainActivity
+
+2026-11-27 08:08:57 11380-11380 AppCompatDelegate D Checking for metadata for AppLocalesMetadataHolderService : Service not found
+
+2026-11-27 08:08:57 11380-11380 MediaRouter V Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+
+2026-11-27 08:08:57 11380-11380 MediaRouter I Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=false, BT route=null
+
+2026-11-27 08:08:57 11380-11380 AxMediaRouter I Found default route: MediaRouter.RouteInfo{ uniqueId=DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, isSystemRoute=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=22, volumeMax=25, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+
+2026-11-27 08:08:57 11380-11380 AxMediaRouter I Unselecting the current route because it is no longer selectable: null
+
+2026-11-27 08:08:57 11380-11380 DynamiteModule I Considering local module com.google.android.gms.cast.framework.dynamite:0 and remote module com.google.android.gms.cast.framework.dynamite:264531001
+
+2026-11-27 08:08:57 11380-11380 DynamiteModule I Selected remote version of com.google.android.gms.cast.framework.dynamite, version >= 264531001
+
+2026-11-27 08:08:57 11380-11380 DynamiteModule V Dynamite loader version >= 2, using loadModule2NoCrashUtils
+
+2026-11-27 08:08:57 11380-11380 System W ClassLoader referenced unknown path:
+
+2026-11-27 08:08:57 11380-11380 nativeloader D Configuring clns-10 for other apk . target_sdk_version=37, uses_libraries=, library_path=/data/app/~~AoTu2mwYF_OEGjRTgds1WQ==/com.google.android.gms-suMvORm09PobOv549-sV6w==/lib/arm64:/data/app/~~AoTu2mwYF_OEGjRTgds1WQ==/com.google.android.gms-suMvORm09PobOv549-sV6w==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+
+2026-11-27 08:08:57 11380-11380 CastDynamiteModuleImpl I rz created by ClassLoader dalvik.system.DelegateLastClassLoader[DexPathList[[zip file "/data/app/~~AoTu2mwYF_OEGjRTgds1WQ==/com.google.android.gms-suMvORm09PobOv549-sV6w==/split_DynamiteModulesC_installtime.apk"],nativeLibraryDirectories=[/data/app/~~AoTu2mwYF_OEGjRTgds1WQ==/com.google.android.gms-suMvORm09PobOv549-sV6w==/split_DynamiteModulesC_installtime.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]].
+
+2026-11-27 08:08:57 11380-11380 HWUI I Using FreeType backend (prop=Auto)
+
+2026-11-27 08:08:57 11380-11380 Resources W Drawable com.lagradost.cloudstream3:drawable/go_forward_30 has unresolved theme attributes! Consider using Resources.getDrawable(int, Theme) or Context.getDrawable(int).
+java.lang.RuntimeException
+	at android.content.res.Resources.getDrawable(Resources.java:928)
+	at com.google.android.gms.cast.framework.media.widget.zzq.zzd(com.google.android.gms:play-services-cast-framework@@22.1.0:2)
+	at com.google.android.gms.cast.framework.media.widget.zzq.zzc(com.google.android.gms:play-services-cast-framework@@22.1.0:1)
+	at com.google.android.gms.cast.framework.media.widget.MiniControllerFragment.zza(com.google.android.gms:play-services-cast-framework@@22.1.0:41)
+	at com.google.android.gms.cast.framework.media.widget.MiniControllerFragment.onCreateView(com.google.android.gms:play-services-cast-framework@@22.1.0:30)
+	at androidx.fragment.app.Fragment.performCreateView(Fragment.java:3119)
+	at androidx.fragment.app.FragmentStateManager.ensureInflatedView(FragmentStateManager.java:418)
+	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:285)
+	at androidx.fragment.app.FragmentLayoutInflaterFactory.onCreateView(FragmentLayoutInflaterFactory.java:142)
+	at androidx.fragment.app.FragmentController.onCreateView(FragmentController.java:136)
+	at androidx.fragment.app.FragmentActivity.dispatchFragmentsOnCreateView(FragmentActivity.java:247)
+	at androidx.fragment.app.FragmentActivity.onCreateView(FragmentActivity.java:226)
+	at android.view.LayoutInflater.tryCreateView(LayoutInflater.java:959)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:888)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:852)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1013)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:974)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1017)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:974)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1017)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:974)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:573)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:464)
+	at com.lagradost.cloudstream3.databinding.ActivityMainBinding.inflate(ActivityMainBinding.java:71)
+	at com.lagradost.cloudstream3.MainActivity.onCreate(MainActivity.kt:1279)
+	at android.app.Activity.performCreate(Activity.java:9327)
+	at android.app.Activity.performCreate(Activity.java:9305)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1541)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4580)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4798)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:224)
+	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:133)
+	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:103)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:80)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3046)
+	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+	at android.os.Handler.dispatchMessage(Handler.java:126)
+	at android.os.Looper.loopOnce(Looper.java:295)
+	at android.os.Looper.loop(Looper.java:398)
+	at android.app.ActivityThread.main(ActivityThread.java:9569)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:575)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:918)
+
+2026-11-27 08:08:57 11380-11411 PluginManager I Plugin update done!
+
+2026-11-27 08:08:57 11380-11380 ImeTracker I com.lagradost.cloudstream3:611263c1: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 08:08:57 11380-11380 ImeTracker I com.lagradost.cloudstream3:611263c1: onFailed at PHASE_CLIENT_VIEW_SERVED
+
+2026-11-27 08:08:57 11380-11380 CompatChangeReporter D Compat change id reported: 395521150; UID 10437; state: ENABLED
+
+2026-11-27 08:08:57 11380-11429 PluginManager W Failed to create local directories
+
+2026-11-27 08:08:57 11380-11380 System.out I Loaded everything
+
+2026-11-27 08:08:57 11380-11380 ImeTracker I com.lagradost.cloudstream3:09a29653: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 08:08:57 11380-11380 ImeTracker I com.lagradost.cloudstream3:09a29653: onFailed at PHASE_CLIENT_VIEW_SERVED
+
+2026-11-27 08:08:57 11380-11380 AppVisibilityProxy I onAppEnteredForeground
+
+2026-11-27 08:08:57 11380-11428 DiscoveryListener D Discovery started: _fcast._tcp
+
+2026-11-27 08:08:57 11380-11380 ContentCaptureHelper I Setting logging level to OFF
+
+2026-11-27 08:08:57 11380-11380 AxMediaRouter W Ignoring attempt to select selected route: MediaRouter.RouteInfo{ uniqueId=DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, isSystemRoute=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=22, volumeMax=25, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+
+2026-11-27 08:08:57 11380-11380 MediaRouter V Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+
+2026-11-27 08:08:57 11380-11380 SYNC_API I Local, local
+
+2026-11-27 08:08:57 11380-11380 ActivityThread E Failed to find provider info for android.media.tv
+
+2026-11-27 08:08:57 11380-11380 TvChannel D Channel not found, creating
+
+2026-11-27 08:08:57 11380-11380 ActivityThread E Failed to find provider info for android.media.tv
+
+2026-11-27 08:08:57 11380-11380 WindowOnBackDispatcher D setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@67a8645
+
+2026-11-27 08:08:57 11380-11380 WindowOnBackDispatcher D setTopOnBackInvokedCallback (unwrapped): androidx.navigationevent.OnBackInvokedInput$createOnBackAnimationCallback$1@28caacb
+
+2026-11-27 08:08:57 11380-11440 WindowOnBackDispatcher D setOnBackInvokedCallbackInfo: androidx.navigationevent.OnBackInvokedInput$createOnBackAnimationCallback$1@28caacb
+
+2026-11-27 08:08:57 11380-11380 VRI[MainActivity] D WindowInsets changed: 1008x2244 statusBars:[0,149,0,0] navigationBars:[0,0,0,54] mandatorySystemGestures:[0,176,0,72]
+
+2026-11-27 08:08:57 11380-11380 Surface I Creating surface for consumer unnamed-11380-0 with slotExpansion=1 for 64 slots
+
+2026-11-27 08:08:57 11380-11380 Surface I Creating surface for consumer VRI[MainActivity]#0(BLAST Consumer)0 with slotExpansion=1 for 64 slots
+
+2026-11-27 08:08:57 11380-11380 MediaRouterProxy I media transfer = false, session transfer = true, transfer to local = false, in-app output switcher = false
+
+2026-11-27 08:08:57 11380-11380 ContentCaptureHelper I Setting logging level to OFF
+
+2026-11-27 08:08:58 11380-11380 COMPACT D Notification permission: false
+
+2026-11-27 08:08:58 11380-11380 ImeTracker I com.lagradost.cloudstream3:c3abc37b: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 08:08:58 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:08:58 11380-11380 ImeTracker I com.lagradost.cloudstream3:c3abc37b: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:08:59 11380-11380 AutofillManager D view not autofillable - not passing ime action check
+
+2026-11-27 08:08:59 11380-11380 ImeTracker I com.lagradost.cloudstream3:ef2ba0c9: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 08:08:59 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:08:59 11380-11380 ImeTracker I com.lagradost.cloudstream3:ef2ba0c9: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:00 11380-11380 AutofillManager D view not autofillable - not passing ime action check
+
+2026-11-27 08:09:00 11380-11380 AutofillManager D view not autofillable - not passing ime action check
+
+2026-11-27 08:09:00 11380-11380 NavComponent I Navigating to fragment: 2131361882
+
+2026-11-27 08:09:00 11380-11380 ImeTracker I com.lagradost.cloudstream3:49a79f14: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser true userId 0 displayId 0
+
+2026-11-27 08:09:00 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:00 11380-11380 ImeTracker I com.lagradost.cloudstream3:49a79f14: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:01 11380-11380 WindowOnBackDispatcher D setTopOnBackInvokedCallback (unwrapped): android.app.Dialog$$ExternalSyntheticLambda2@66fc3a1
+
+2026-11-27 08:09:01 11380-11380 WindowOnBackDispatcher D setTopOnBackInvokedCallback (unwrapped): androidx.navigationevent.OnBackInvokedInput$createOnBackAnimationCallback$1@ab789c6
+
+2026-11-27 08:09:01 11380-11440 WindowOnBackDispatcher D setOnBackInvokedCallbackInfo: androidx.navigationevent.OnBackInvokedInput$createOnBackAnimationCallback$1@ab789c6
+
+2026-11-27 08:09:01 11380-11380 Surface I Creating surface for consumer unnamed-11380-1 with slotExpansion=1 for 64 slots
+
+2026-11-27 08:09:01 11380-11380 Surface I Creating surface for consumer VRI[MainActivity]#1(BLAST Consumer)1 with slotExpansion=1 for 64 slots
+
+2026-11-27 08:09:01 11380-11380 ImeTracker I com.lagradost.cloudstream3:df4c0030: onRequestHide at ORIGIN_CLIENT reason HIDE_WINDOW_LOST_FOCUS fromUser false userId 0 displayId 0
+
+2026-11-27 08:09:01 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:01 11380-11380 ImeTracker I com.lagradost.cloudstream3:df4c0030: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:01 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:01 11380-11380 ImeTracker I com.lagradost.cloudstream3:874b5e0b: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:02 11380-11486 ProfileInstaller D Installing profile for com.lagradost.cloudstream3
+
+2026-11-27 08:09:02 11380-11380 InsetsController D show(ime())
+
+2026-11-27 08:09:02 11380-11380 ImeTracker I com.lagradost.cloudstream3:44ae7fc7: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT_BY_INSETS_API fromUser false userId 0 displayId 0
+
+2026-11-27 08:09:02 11380-11380 InsetsController D Setting requestedVisibleTypes to 511 (was 503)
+
+2026-11-27 08:09:02 11380-11380 AssistStructure I Flattened final assist data: 4976 bytes, containing 2 windows, 47 views
+
+2026-11-27 08:09:02 11380-11380 ImeTracker I com.lagradost.cloudstream3:3565594b: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 08:09:02 11380-11380 InsetsController D show(ime())
+
+2026-11-27 08:09:02 11380-11380 ImeTracker I com.lagradost.cloudstream3:3565594b: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+
+2026-11-27 08:09:02 11380-11380 WindowOnBackDispatcher D setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@87fb985
+
+2026-11-27 08:09:02 11380-11440 WindowOnBackDispatcher D setOnBackInvokedCallbackInfo: android.view.ImeBackAnimationController@87fb985
+
+2026-11-27 08:09:02 11380-11380 VRI[MainActivity] D WindowInsets changed: ime:[0,0,0,845]
+
+2026-11-27 08:09:02 11380-11380 InteractionJankMonitor W Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.lagradost.cloudstream3
+
+2026-11-27 08:09:02 11380-11380 ImeTracker I com.lagradost.cloudstream3:44ae7fc7: onShown
+
+2026-11-27 08:09:04 11380-11380 ImeTracker I system_server:d65a2f7d: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+
+2026-11-27 08:09:05 11380-11380 WindowOnBackDispatcher D setTopOnBackInvokedCallback (unwrapped): null
+
+2026-11-27 08:09:05 11380-11386 st.cloudstream3 W Cleared Reference was only reachable from finalizer (only reported once)
+
+2026-11-27 08:09:05 11380-11388 System W A resource failed to call close.
+
+2026-11-27 08:09:05 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:05 11380-11380 ImeTracker I com.lagradost.cloudstream3:4b5a9681: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:05 11380-11380 RemoteInputConnectionImpl W requestCursorUpdates on inactive InputConnection
+
+2026-11-27 08:09:05 11380-11380 ImeBackCallbackProxy W Ime callback not found. Ignoring unregisterReceivedCallback. callbackId: 246153411 remaining callbacks: 0
+
+2026-11-27 08:09:05 11380-11380 VRI[MainActivity] D WindowInsets changed: ime:null
+
+2026-11-27 08:09:05 11380-11380 WindowOnBackDispatcher D setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@59b8cfd
+
+2026-11-27 08:09:05 11380-11440 WindowOnBackDispatcher D setOnBackInvokedCallbackInfo: android.view.ImeBackAnimationController@59b8cfd
+
+2026-11-27 08:09:05 11380-11380 WindowOnBackDispatcher D setTopOnBackInvokedCallback (unwrapped): androidx.navigationevent.OnBackInvokedInput$createOnBackAnimationCallback$1@28caacb
+
+2026-11-27 08:09:05 11380-11440 WindowOnBackDispatcher D setOnBackInvokedCallbackInfo: androidx.navigationevent.OnBackInvokedInput$createOnBackAnimationCallback$1@28caacb
+
+2026-11-27 08:09:05 11380-11380 ImeTracker I system_server:5a665527: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+
+2026-11-27 08:09:05 11380-11380 WindowOnBackDispatcher D setTopOnBackInvokedCallback (unwrapped): android.view.ImeBackAnimationController@59b8cfd
+
+2026-11-27 08:09:05 11380-11440 WindowOnBackDispatcher D setOnBackInvokedCallbackInfo: android.view.ImeBackAnimationController@59b8cfd
+
+2026-11-27 08:09:05 11380-11380 ImeTracker I system_server:9b43d410: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+
+2026-11-27 08:09:05 11380-11380 WindowOnBackDispatcher D setTopOnBackInvokedCallback (unwrapped): androidx.navigationevent.OnBackInvokedInput$createOnBackAnimationCallback$1@28caacb
+
+2026-11-27 08:09:05 11380-11440 WindowOnBackDispatcher D setOnBackInvokedCallbackInfo: androidx.navigationevent.OnBackInvokedInput$createOnBackAnimationCallback$1@28caacb
+
+2026-11-27 08:09:06 11380-11380 CoilImgLoader E Image load error: Unable to resolve host "streamed.st": No address associated with hostname
+
+2026-11-27 08:09:06 11380-11380 CoilImgLoader E URL: https://streamed.st/favicon.png
+
+2026-11-27 08:09:06 11380-11380 CoilImgLoader E allowHardware: true
+
+2026-11-27 08:09:06 11380-11380 CoilImgLoader E hardware: komodo, board: komodo
+
+2026-11-27 08:09:06 11380-11380 CoilImgLoader E Image load error: Unable to resolve host "ppv.st": No address associated with hostname
+
+2026-11-27 08:09:06 11380-11380 CoilImgLoader E URL: https://ppv.st/assets/img/ppv.png
+
+2026-11-27 08:09:06 11380-11380 CoilImgLoader E allowHardware: true
+
+2026-11-27 08:09:06 11380-11380 CoilImgLoader E hardware: komodo, board: komodo
+
+2026-11-27 08:09:06 11380-11380 CoilImgLoader E Image load error: HTTP 403
+
+2026-11-27 08:09:06 11380-11380 CoilImgLoader E URL: https://tap4sport.st/favicon.ico
+
+2026-11-27 08:09:06 11380-11380 CoilImgLoader E allowHardware: true
+
+2026-11-27 08:09:06 11380-11380 CoilImgLoader E hardware: komodo, board: komodo
+
+2026-11-27 08:09:06 11380-11380 CoilImgLoader E Image load error: HTTP 404
+
+2026-11-27 08:09:06 11380-11380 CoilImgLoader E URL: https://raw.githubusercontent.com/bensmithgb53/StreamBTW-Cloudstream/builds/Daddylive/daddylive.jpg
+
+2026-11-27 08:09:06 11380-11380 CoilImgLoader E allowHardware: true
+
+2026-11-27 08:09:06 11380-11380 CoilImgLoader E hardware: komodo, board: komodo
+
+2026-11-27 08:09:07 11380-11539 System W A resource failed to call response.body().close().
+
+2026-11-27 08:09:07 11380-11411 PluginManager I Unloading plugin: /data/user/0/com.lagradost.cloudstream3/files/Extensions/httpsraw.githubusercontent.combensmithgb53StreamBTW-Releasesrefsheadsbuildsrepo.json.-63384350/Daddylive.435096872.cs3
+
+2026-11-27 08:09:07 11380-11411 PluginManager W Couldn't find plugin /data/user/0/com.lagradost.cloudstream3/files/Extensions/httpsraw.githubusercontent.combensmithgb53StreamBTW-Releasesrefsheadsbuildsrepo.json.-63384350/Daddylive.435096872.cs3
+
+2026-11-27 08:09:07 11380-11411 PluginManager I Loading plugin: PluginData(internalName=Daddylive, url=https://raw.githubusercontent.com/bensmithgb53/StreamBTW-Releases/builds/Daddylive.cs3, isOnline=true, filePath=/data/user/0/com.lagradost.cloudstream3/files/Extensions/httpsraw.githubusercontent.combensmithgb53StreamBTW-Releasesrefsheadsbuildsrepo.json.-63384350/Daddylive.435096872.cs3, version=-2147483648)
+
+2026-11-27 08:09:07 11380-11411 PluginInstance I Adding DaddyLive () MainAPI
+
+2026-11-27 08:09:07 11380-11411 PluginInstance I Adding DaddyLiveExtractor () ExtractorApi
+
+2026-11-27 08:09:07 11380-11411 PluginManager I Loaded plugin Daddylive successfully
+
+2026-11-27 08:09:08 11380-11380 ImeTracker I com.lagradost.cloudstream3:fc9ddf9b: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 08:09:08 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:08 11380-11380 ImeTracker I com.lagradost.cloudstream3:fc9ddf9b: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:08 11380-11380 AutofillManager D view not autofillable - not passing ime action check
+
+2026-11-27 08:09:09 11380-11380 WindowOnBackDispatcher D setTopOnBackInvokedCallback (unwrapped): com.google.android.material.motion.MaterialBackOrchestrator$Api34BackCallbackDelegate$1@9bd46f7
+
+2026-11-27 08:09:09 11380-11440 WindowOnBackDispatcher D setOnBackInvokedCallbackInfo: com.google.android.material.motion.MaterialBackOrchestrator$Api34BackCallbackDelegate$1@9bd46f7
+
+2026-11-27 08:09:09 11380-11380 Surface I Creating surface for consumer unnamed-11380-2 with slotExpansion=1 for 64 slots
+
+2026-11-27 08:09:09 11380-11380 Surface I Creating surface for consumer VRI[MainActivity]#2(BLAST Consumer)2 with slotExpansion=1 for 64 slots
+
+2026-11-27 08:09:09 11380-11380 TextView W onProvideContentCaptureStructure(): calling assumeLayout()
+
+2026-11-27 08:09:09 11380-11380 TextView W onProvideContentCaptureStructure(): calling assumeLayout()
+
+2026-11-27 08:09:09 11380-11380 TextView W onProvideContentCaptureStructure(): calling assumeLayout()
+
+2026-11-27 08:09:09 11380-11380 TextView W onProvideContentCaptureStructure(): calling assumeLayout()
+
+2026-11-27 08:09:09 11380-11380 TextView W onProvideContentCaptureStructure(): calling assumeLayout()
+
+2026-11-27 08:09:09 11380-11380 TextView W onProvideContentCaptureStructure(): calling assumeLayout()
+
+2026-11-27 08:09:09 11380-11380 TextView W onProvideContentCaptureStructure(): calling assumeLayout()
+
+2026-11-27 08:09:09 11380-11380 TextView W onProvideContentCaptureStructure(): calling assumeLayout()
+
+2026-11-27 08:09:09 11380-11380 TextView W onProvideContentCaptureStructure(): calling assumeLayout()
+
+2026-11-27 08:09:09 11380-11380 ImeTracker I com.lagradost.cloudstream3:18cf288e: onRequestHide at ORIGIN_CLIENT reason HIDE_WINDOW_LOST_FOCUS fromUser false userId 0 displayId 0
+
+2026-11-27 08:09:09 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:09 11380-11380 ImeTracker I com.lagradost.cloudstream3:18cf288e: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:09 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:09 11380-11380 ImeTracker I com.lagradost.cloudstream3:e9aef3e2: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:10 11380-11380 WindowOnBackDispatcher D setTopOnBackInvokedCallback (unwrapped): null
+
+2026-11-27 08:09:10 11380-11438 DaddyLiveProvider D Fetching DaddyLive mirror directory: https://daddylive.pk/
+
+2026-11-27 08:09:10 11380-11400 HWUI D endAllActiveAnimators on 0xb400007dc165a480 (MaterialTextView) with handle 0xb400007e1151d450
+
+2026-11-27 08:09:10 11380-11380 CompatChangeReporter D Compat change id reported: 376561342; UID 10437; state: ENABLED
+
+2026-11-27 08:09:10 11380-11380 WindowOnBackDispatcher D setTopOnBackInvokedCallback (unwrapped): android.app.Dialog$$ExternalSyntheticLambda2@9804d74
+
+2026-11-27 08:09:10 11380-11440 WindowOnBackDispatcher D setOnBackInvokedCallbackInfo: android.app.Dialog$$ExternalSyntheticLambda2@9804d74
+
+2026-11-27 08:09:10 11380-11380 Surface I Creating surface for consumer unnamed-11380-3 with slotExpansion=1 for 64 slots
+
+2026-11-27 08:09:10 11380-11380 Surface I Creating surface for consumer VRI[MainActivity]#3(BLAST Consumer)3 with slotExpansion=1 for 64 slots
+
+2026-11-27 08:09:10 11380-11380 ImeTracker I com.lagradost.cloudstream3:8a2ccd8d: onRequestHide at ORIGIN_CLIENT reason HIDE_WINDOW_LOST_FOCUS fromUser false userId 0 displayId 0
+
+2026-11-27 08:09:10 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:10 11380-11380 ImeTracker I com.lagradost.cloudstream3:8a2ccd8d: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:10 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:10 11380-11380 ImeTracker I com.lagradost.cloudstream3:5e71ca2d: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:11 11380-11380 WindowOnBackDispatcher D setTopOnBackInvokedCallback (unwrapped): null
+
+2026-11-27 08:09:11 11380-11438 DaddyLiveProvider W Mirror candidate failed channel-page probe: https://cdnjs.cloudflare.com HTTP 404
+
+2026-11-27 08:09:11 11380-11438 DaddyLiveProvider W Mirror candidate failed channel-page probe: https://schema.org HTTP 404
+
+2026-11-27 08:09:12 11380-11438 DaddyLiveProvider W Mirror candidate failed channel-page probe: https://fonts.googleapis.com HTTP 404
+
+2026-11-27 08:09:12 11380-11438 DaddyLiveProvider W Mirror candidate failed channel-page probe: https://fonts.gstatic.com HTTP 404
+
+2026-11-27 08:09:13 11380-11438 DaddyLiveProvider D Selected DaddyLive public mirror dynamically: https://thedaddy.li
+
+2026-11-27 08:09:13 11380-11438 DaddyLiveProvider D Loading main page...
+
+2026-11-27 08:09:13 11380-11438 DaddyLiveProvider D Fetching 24/7 channels from https://thedaddy.li/24-7-channels.php
+
+2026-11-27 08:09:13 11380-11438 DaddyLiveProvider D Found 900 24/7 channel cards
+
+2026-11-27 08:09:13 11380-11438 DaddyLiveProvider D Loaded 900 24/7 channels
+
+2026-11-27 08:09:13 11380-11438 DaddyLiveProvider D Fetching schedule from https://thedaddy.li
+
+2026-11-27 08:09:13 11380-11438 DaddyLiveProvider D Found 46 category start markers
+
+2026-11-27 08:09:14 11380-11438 DaddyLiveProvider D Found 40 schedule categories with 303 total events
+
+2026-11-27 08:09:14 11380-11438 DaddyLiveProvider D Loaded 40 schedule categories
+
+2026-11-27 08:09:14 11380-11429 DaddyLiveProvider D Loading URL: https://thedaddy.li/watch.php?id=504
+
+2026-11-27 08:09:14 11380-11432 DaddyLiveProvider D Loading URL: https://thedaddy.li/watch.php?id=673
+
+2026-11-27 08:09:14 11380-11438 DaddyLiveProvider D Loading URL: https://thedaddy.li/watch.php?id=682
+
+2026-11-27 08:09:14 11380-11388 System W A resource failed to call close.
+
+2026-11-27 08:09:14 11380-11388 System W A resource failed to call close.
+
+2026-11-27 08:09:14 11380-11388 System W A resource failed to call close.
+
+2026-11-27 08:09:14 11380-11388 System W A resource failed to call close.
+
+2026-11-27 08:09:15 11380-11380 NavComponent I Navigating to fragment: 2131362328
+
+2026-11-27 08:09:15 11380-11380 ImeTracker I com.lagradost.cloudstream3:b035c5ce: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 08:09:15 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:15 11380-11380 ImeTracker I com.lagradost.cloudstream3:b035c5ce: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:15 11380-11380 Resources W Drawable com.lagradost.cloudstream3:drawable/go_forward_30 has unresolved theme attributes! Consider using Resources.getDrawable(int, Theme) or Context.getDrawable(int).
+java.lang.RuntimeException
+	at android.content.res.Resources.getDrawable(Resources.java:928)
+	at com.google.android.gms.cast.framework.media.widget.zzq.zzd(com.google.android.gms:play-services-cast-framework@@22.1.0:2)
+	at com.google.android.gms.cast.framework.media.widget.zzq.zzc(com.google.android.gms:play-services-cast-framework@@22.1.0:1)
+	at com.google.android.gms.cast.framework.media.widget.MiniControllerFragment.zza(com.google.android.gms:play-services-cast-framework@@22.1.0:41)
+	at com.google.android.gms.cast.framework.media.widget.MiniControllerFragment.onCreateView(com.google.android.gms:play-services-cast-framework@@22.1.0:30)
+	at androidx.fragment.app.Fragment.performCreateView(Fragment.java:3119)
+	at androidx.fragment.app.FragmentStateManager.ensureInflatedView(FragmentStateManager.java:418)
+	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:285)
+	at androidx.fragment.app.FragmentLayoutInflaterFactory.onCreateView(FragmentLayoutInflaterFactory.java:142)
+	at android.view.LayoutInflater$FactoryMerger.onCreateView(LayoutInflater.java:223)
+	at android.view.LayoutInflater.tryCreateView(LayoutInflater.java:951)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:888)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:852)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1013)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:974)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1017)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:974)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1017)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:974)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:573)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:464)
+	at com.lagradost.cloudstream3.databinding.FragmentResultSwipeBinding.inflate(FragmentResultSwipeBinding.java:140)
+	at com.lagradost.cloudstream3.ui.result.ResultFragmentPhone$1.invoke(ResultFragmentPhone.kt:112)
+	at com.lagradost.cloudstream3.ui.result.ResultFragmentPhone$1.invoke(ResultFragmentPhone.kt:112)
+	at com.lagradost.cloudstream3.ui.BaseFragmentHelper$-CC.$default$createBinding(BaseFragment.kt:51)
+	at com.lagradost.cloudstream3.ui.BaseFragment.createBinding(BaseFragment.kt:124)
+	at com.lagradost.cloudstream3.ui.BaseFragment.onCreateView(BaseFragment.kt:160)
+	at androidx.fragment.app.Fragment.performCreateView(Fragment.java:3119)
+	at androidx.fragment.app.FragmentStateManager.createView(FragmentStateManager.java:577)
+	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:286)
+	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:2214)
+	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:2115)
+	at androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:2052)
+	at androidx.fragment.app.FragmentManager$5.run(FragmentManager.java:703)
+	at android.os.Handler.handleCallback(Handler.java:1082)
+	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+	at android.os.Handler.dispatchMessage(Handler.java:126)
+	at android.os.Looper.loopOnce(Looper.java:295)
+	at android.os.Looper.loop(Looper.java:398)
+	at android.app.ActivityThread.main(ActivityThread.java:9569)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:575)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:918)
+
+2026-11-27 08:09:15 11380-11380 CS3ExoPlayer I SET STYLE = SaveCaptionStyle(foregroundColor=-1, backgroundColor=0, windowColor=0, edgeType=1, edgeColor=-16777216, font=null, typefaceFilePath=null, elevation=20, fixedTextSize=null, edgeSize=null, removeCaptions=false, removeBloat=true, upperCase=false, bold=false, italic=false, backgroundRadius=null, alignment=null)
+
+2026-11-27 08:09:15 11380-11380 VideoClickActionHolder D allVideoClickActions: [null:com.lagradost.cloudstream3.actions.temp.PlayInBrowserAction, null:com.lagradost.cloudstream3.actions.temp.CopyClipboardAction, null:com.lagradost.cloudstream3.actions.temp.ViewM3U8Action, null:com.lagradost.cloudstream3.actions.temp.PlayMirrorAction, null:com.lagradost.cloudstream3.actions.temp.VlcPackage, null:com.lagradost.cloudstream3.actions.temp.MpvPackage, null:com.lagradost.cloudstream3.actions.temp.MpvExPackage, null:com.lagradost.cloudstream3.actions.temp.NextPlayerPackage, null:com.lagradost.cloudstream3.actions.temp.JustPlayerPackage, null:com.lagradost.cloudstream3.actions.temp.fcast.FcastAction, null:com.lagradost.cloudstream3.actions.temp.LibreTorrentPackage, null:com.lagradost.cloudstream3.actions.temp.BiglyBTPackage, null:com.lagradost.cloudstream3.actions.temp.VlcNightlyPackage, null:com.lagradost.cloudstream3.actions.temp.WebVideoCastPackage, null:com.lagradost.cloudstream3.actions.temp.MpvYTDLPackage, null:com.lagradost.cloudstream3.actions.temp.MpvKtPackage, null:com.lagradost.cloudstream3.actions.temp.MpvKtPreviewPackage, null:com.lagradost.cloudstream3.actions.temp.OnlyPlayer, null:com.lagradost.cloudstream3.actions.temp.MpvRxPackage, null:com.lagradost.cloudstream3.actions.AlwaysAskAction]
+
+2026-11-27 08:09:15 11380-11380 ImeTracker I com.lagradost.cloudstream3:2fb46761: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 08:09:15 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:15 11380-11380 ImeTracker I com.lagradost.cloudstream3:2fb46761: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:15 11380-11432 SYNCVM I addFromUrl = https://thedaddy.li/watch.php?id=51
+
+2026-11-27 08:09:15 11380-11438 DaddyLiveProvider D Loading URL: https://thedaddy.li/watch.php?id=51
+
+2026-11-27 08:09:15 11380-11432 SYNCUTIL I getIdsFromUrl https://thedaddy.li/watch.php?id=51
+
+2026-11-27 08:09:15 11380-11380 CS3ExoPlayer I reloadPlayer
+
+2026-11-27 08:09:15 11380-11380 CS3ExoPlayer I releasePlayer
+
+2026-11-27 08:09:15 11380-11380 PlayerView I Handle event: PlayerAttachedEvent(player=null, source=Player)
+
+2026-11-27 08:09:15 11380-11380 View W requestLayout() improperly called by android.widget.FrameLayout{9164763 I.E...... ......I. 0,0-0,0 #7f0a056a app:id/start_panel} during layout: running second layout pass
+
+2026-11-27 08:09:15 11380-11380 View W requestLayout() improperly called by android.widget.FrameLayout{3ea621c I.E...... ......ID 1008,0-1008,1928 #7f0a019b app:id/end_panel aid=1073742092} during layout: running second layout pass
+
+2026-11-27 08:09:15 11380-11380 AutofillManager D view not autofillable - not passing ime action check
+
+2026-11-27 08:09:15 11380-11380 AutofillManager D view not autofillable - not passing ime action check
+
+2026-11-27 08:09:15 11380-11432 RVM2 I applyMeta
+
+2026-11-27 08:09:15 11380-11380 PanelsChildGestureRegionObserver W failed to register view with ID 2131362918. already registered
+
+2026-11-27 08:09:15 11380-11411 SYNCVM I addFromUrl = https://thedaddy.li/watch.php?id=51
+
+2026-11-27 08:09:15 11380-11411 SYNCUTIL I getIdsFromUrl https://thedaddy.li/watch.php?id=51
+
+2026-11-27 08:09:15 11380-11380 View W requestLayout() improperly called by androidx.media3.ui.AspectRatioFrameLayout{8d336d0 V.E...... ......ID 0,0-1008,450 #7f0a01bc app:id/exo_content_frame} during layout: running second layout pass
+
+2026-11-27 08:09:15 11380-11380 View W requestLayout() improperly called by android.view.View{d7ceffc V.ED..... ......ID 0,0-1008,450 #7f0a01f1 app:id/extra_brightness_overlay} during layout: running second layout pass
+
+2026-11-27 08:09:15 11380-11380 Surface I Creating surface for consumer unnamed-11380-4 with slotExpansion=1 for 64 slots
+
+2026-11-27 08:09:15 11380-11380 Surface I Creating surface for consumer 23734b1 SurfaceView[com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity]#4(BLAST Consumer)4 with slotExpansion=1 for 64 slots
+
+2026-11-27 08:09:16 11380-11380 CS3ExoPlayer I newInstance = {}
+
+2026-11-27 08:09:16 11380-11380 NavComponent I Navigating to fragment: 2131362326
+
+2026-11-27 08:09:16 11380-11380 ImeTracker I com.lagradost.cloudstream3:313a9ae9: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 08:09:16 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:16 11380-11380 ImeTracker I com.lagradost.cloudstream3:313a9ae9: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:16 11380-11380 CS3ExoPlayer I onStop
+
+2026-11-27 08:09:16 11380-11380 CS3ExoPlayer I saveData
+
+2026-11-27 08:09:16 11380-11380 CS3ExoPlayer I handleEvent Pause
+
+2026-11-27 08:09:16 11380-11380 CS3ExoPlayer I unwrapBundle = null
+
+2026-11-27 08:09:16 11380-11380 CS3ExoPlayer I unwrapBundle = Bundle[{resumePosition=0, uuid=481338f3-d2b9-4f4b-8b86-9735c4e2afb9, index=0, syncData={}}]
+
+2026-11-27 08:09:16 11380-11380 CS3ExoPlayer I SET STYLE = SaveCaptionStyle(foregroundColor=-1, backgroundColor=0, windowColor=0, edgeType=1, edgeColor=-16777216, font=null, typefaceFilePath=null, elevation=20, fixedTextSize=null, edgeSize=null, removeCaptions=false, removeBloat=true, upperCase=false, bold=false, italic=false, backgroundRadius=null, alignment=null)
+
+2026-11-27 08:09:16 11380-11380 PlayViewGen I attachGenerator with generator=com.lagradost.cloudstream3.ui.player.RepoLinkGenerator@ed7571f and index=0
+
+2026-11-27 08:09:16 11380-11380 CS3ExoPlayer I unwrapBundle = null
+
+2026-11-27 08:09:16 11380-11380 CS3ExoPlayer I unwrapBundle = Bundle[{resumePosition=0, uuid=481338f3-d2b9-4f4b-8b86-9735c4e2afb9, index=0, syncData={}}]
+
+2026-11-27 08:09:16 11380-11380 PlayViewGen I loadLinks with generator=com.lagradost.cloudstream3.ui.player.RepoLinkGenerator@ed7571f and index=0
+
+2026-11-27 08:09:16 11380-11429 SYNCVM I updateUserData
+
+2026-11-27 08:09:16 11380-11380 InsetsController D Setting requestedVisibleTypes to 496 (was 503)
+
+2026-11-27 08:09:16 11380-11429 DaddyLiveProvider D Loading links for: https://thedaddy.li/watch.php?id=51
+
+2026-11-27 08:09:16 11380-11380 CS3ExoPlayer I reloadPlayer
+
+2026-11-27 08:09:16 11380-11380 CS3ExoPlayer I releasePlayer
+
+2026-11-27 08:09:16 11380-11380 PlayerView I Handle event: PlayerAttachedEvent(player=null, source=Player)
+
+2026-11-27 08:09:16 11380-11380 VRI[MainActivity] D WindowInsets changed: statusBars:null navigationBars:null
+
+2026-11-27 08:09:16 11380-11380 View W requestLayout() improperly called by androidx.media3.ui.AspectRatioFrameLayout{c7f9593 V.E...... ......ID 0,0-1008,2244 #7f0a01bc app:id/exo_content_frame} during layout: running second layout pass
+
+2026-11-27 08:09:16 11380-11380 View W requestLayout() improperly called by android.view.View{183f7ef V.ED..... ......ID 0,0-1008,2244 #7f0a01f1 app:id/extra_brightness_overlay} during layout: running second layout pass
+
+2026-11-27 08:09:16 11380-11380 Surface I Creating surface for consumer unnamed-11380-5 with slotExpansion=1 for 64 slots
+
+2026-11-27 08:09:16 11380-11380 Surface I Creating surface for consumer d3ce9f3 SurfaceView[com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity]#5(BLAST Consumer)5 with slotExpansion=1 for 64 slots
+
+2026-11-27 08:09:16 11380-11380 CS3ExoPlayer I setActiveSubtitles 0
+
+2026-11-27 08:09:16 11380-11380 CS3ExoPlayer I autoSelectFromSettings = null
+
+2026-11-27 08:09:16 11380-11380 CS3ExoPlayer I releasePlayer
+
+2026-11-27 08:09:16 11380-11380 PlayerView I Handle event: PlayerAttachedEvent(player=null, source=Player)
+
+2026-11-27 08:09:16 11380-11380 ImeTracker I com.lagradost.cloudstream3:8694ae0c: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 08:09:16 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:16 11380-11380 ImeTracker I com.lagradost.cloudstream3:8694ae0c: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:16 11380-11380 VRI[MainActivity] D WindowInsets changed: 2244x1008 mandatorySystemGestures:[0,54,0,72]
+
+2026-11-27 08:09:16 11380-11380 View W requestLayout() improperly called by androidx.media3.ui.AspectRatioFrameLayout{c7f9593 V.E...... ......ID 0,0-2244,1008 #7f0a01bc app:id/exo_content_frame aid=1073742143} during layout: running second layout pass
+
+2026-11-27 08:09:16 11380-11380 View W requestLayout() improperly called by android.view.View{183f7ef V.ED..... ......I. 0,0-1008,2244 #7f0a01f1 app:id/extra_brightness_overlay} during layout: running second layout pass
+
+2026-11-27 08:09:17 11380-11380 CS3ExoPlayer I releasePlayer
+
+2026-11-27 08:09:17 11380-11380 PlayerView I Handle event: PlayerAttachedEvent(player=null, source=Player)
+
+2026-11-27 08:09:18 11380-11429 DaddyLiveProvider D Direct channel has 4 player sources
+
+2026-11-27 08:09:18 11380-11429 GenericWebViewExtractor D Loading player source: https://thedaddy.li/stream/stream-51.php
+
+2026-11-27 08:09:18 11380-11429 WebViewFactory I Loading com.google.android.webview version 157.0.8103.50 (code 810305003)
+
+2026-11-27 08:09:18 11380-11429 ResourcesManager V The following library key has been added: ResourcesKey{ mHash=d4c836d2 mResDir=null mSplitDirs=[] mOverlayDirs=[] mLibDirs=[/data/app/~~lfj_TvWC0nQNDhoHPNoxvg==/com.google.android.webview-_n5_HcfdaJNTR149PkLzlA==/base.apk,/system/framework/android.test.base.jar,/system_ext/framework/androidx.window.extensions.jar] mDisplayId=0 mOverrideConfig=v37 mCompatInfo={480dpi always-compat} mLoaders=[]}
+
+2026-11-27 08:09:18 11380-11429 ApplicationLoaders D Returning zygote-cached class loader: /system/framework/android.test.base.jar
+
+2026-11-27 08:09:18 11380-11429 ApplicationLoaders D Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+
+2026-11-27 08:09:18 11380-11429 nativeloader D Configuring clns-11 for other apk /data/app/~~lfj_TvWC0nQNDhoHPNoxvg==/com.google.android.webview-_n5_HcfdaJNTR149PkLzlA==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~lfj_TvWC0nQNDhoHPNoxvg==/com.google.android.webview-_n5_HcfdaJNTR149PkLzlA==/lib/arm64:/data/app/~~lfj_TvWC0nQNDhoHPNoxvg==/com.google.android.webview-_n5_HcfdaJNTR149PkLzlA==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+
+2026-11-27 08:09:18 11380-11429 cr_WVCFactoryProvider I version=157.0.8103.50 (810305003) minSdkVersion=29 multiprocess=true packageId=2 splits=<none>
+
+2026-11-27 08:09:18 11380-11429 nativeloader D Load /data/app/~~lfj_TvWC0nQNDhoHPNoxvg==/com.google.android.webview-_n5_HcfdaJNTR149PkLzlA==/base.apk!/lib/arm64-v8a/libwebviewchromium.so using class loader ns clns-11 (caller=/data/app/~~lfj_TvWC0nQNDhoHPNoxvg==/com.google.android.webview-_n5_HcfdaJNTR149PkLzlA==/base.apk): ok
+
+2026-11-27 08:09:18 11380-11429 nativeloader D Load /system/lib64/libwebviewchromium_plat_support.so using class loader ns clns-11 (caller=/data/app/~~lfj_TvWC0nQNDhoHPNoxvg==/com.google.android.webview-_n5_HcfdaJNTR149PkLzlA==/base.apk): ok
+
+2026-11-27 08:09:18 11380-11429 st.cloudstream3 E hiddenapi: Accessing hidden method Landroid/app/contentsafety/ContentSafetyManager;->isContentSafetyEnabled()Z (runtime_flags=0, domain=platform, api=blocked) from /data/app/~~lfj_TvWC0nQNDhoHPNoxvg==/com.google.android.webview-_n5_HcfdaJNTR149PkLzlA==/base.apk (domain=app, TargetSdkVersion=36) using linking: denied
+
+2026-11-27 08:09:18 11380-11429 st.cloudstream3 E hiddenapi: Accessing hidden method Landroid/webkit/WebViewDelegate;->isNativeWebViewZygoteEnabled()Z (runtime_flags=0, domain=platform, api=blocked) from /data/app/~~lfj_TvWC0nQNDhoHPNoxvg==/com.google.android.webview-_n5_HcfdaJNTR149PkLzlA==/base.apk (domain=app, TargetSdkVersion=36) using linking: denied
+
+2026-11-27 08:09:18 11380-11429 st.cloudstream3 E hiddenapi: Accessing hidden method Landroid/app/contentsafety/ClassifiableContent$Builder;-><init>(Landroid/content/LocusId;Ljava/lang/String;)V (runtime_flags=0, domain=platform, api=blocked) from /data/app/~~lfj_TvWC0nQNDhoHPNoxvg==/com.google.android.webview-_n5_HcfdaJNTR149PkLzlA==/base.apk (domain=app, TargetSdkVersion=36) using linking: denied
+
+2026-11-27 08:09:18 11380-11429 st.cloudstream3 E hiddenapi: Accessing hidden method Landroid/app/contentsafety/ClassifiableContent$Builder;->setUri(Landroid/net/Uri;)Landroid/app/contentsafety/ClassifiableContent$Builder; (runtime_flags=0, domain=platform, api=blocked) from /data/app/~~lfj_TvWC0nQNDhoHPNoxvg==/com.google.android.webview-_n5_HcfdaJNTR149PkLzlA==/base.apk (domain=app, TargetSdkVersion=36) using linking: denied
+
+2026-11-27 08:09:18 11380-11429 st.cloudstream3 E hiddenapi: Accessing hidden method Landroid/app/contentsafety/ClassifiableContent$Builder;->setData(Landroid/os/ParcelFileDescriptor;)Landroid/app/contentsafety/ClassifiableContent$Builder; (runtime_flags=0, domain=platform, api=blocked) from /data/app/~~lfj_TvWC0nQNDhoHPNoxvg==/com.google.android.webview-_n5_HcfdaJNTR149PkLzlA==/base.apk (domain=app, TargetSdkVersion=36) using linking: denied
+
+2026-11-27 08:09:18 11380-11429 st.cloudstream3 E hiddenapi: Accessing hidden method Landroid/app/contentsafety/ClassifiableContent$Builder;->build()Landroid/app/contentsafety/ClassifiableContent; (runtime_flags=0, domain=platform, api=blocked) from /data/app/~~lfj_TvWC0nQNDhoHPNoxvg==/com.google.android.webview-_n5_HcfdaJNTR149PkLzlA==/base.apk (domain=app, TargetSdkVersion=36) using linking: denied
+
+2026-11-27 08:09:18 11380-11429 st.cloudstream3 E hiddenapi: Accessing hidden method Landroid/app/contentsafety/ContentSafetyManager;->createContentRestrictedIntent(Landroid/content/LocusId;)Landroid/content/Intent; (runtime_flags=0, domain=platform, api=blocked) from /data/app/~~lfj_TvWC0nQNDhoHPNoxvg==/com.google.android.webview-_n5_HcfdaJNTR149PkLzlA==/base.apk (domain=app, TargetSdkVersion=36) using linking: denied
+
+2026-11-27 08:09:18 11380-11616 chromium I [1127/080918.774419:INFO:android_webview/browser/variations/variations_seed_loader.cc:63] Failed to open file for reading.: No such file or directory (2)
+
+2026-11-27 08:09:18 11380-11616 chromium I [1127/080918.780017:INFO:android_webview/browser/variations/variations_seed_loader.cc:63] Failed to open file for reading.: No such file or directory (2)
+
+2026-11-27 08:09:18 11380-11380 cr_LibraryLoader I Successfully loaded native library
+
+2026-11-27 08:09:18 11380-11380 cr_CachingUmaRecorder I Flushed 39 samples from 21 histograms, 0 samples were dropped.
+
+2026-11-27 08:09:18 11380-11380 cr_ChildProcLH I ScopedServiceBindingBatch.tryActivate: false
+
+2026-11-27 08:09:18 11380-11380 cr_CombinedPProvider I #registerProvider() provider:WV.rj@d9ef575 isPolicyCacheEnabled:false policyProvidersSize:0
+
+2026-11-27 08:09:18 11380-11380 cr_PolicyProvider I #setManagerAndSource() 0
+
+2026-11-27 08:09:18 11380-11380 cr_DisplayManager I Is Display Topology available: false
+
+2026-11-27 08:09:18 11380-11615 cr_policy I registerReceiver succeeded after 1ms
+
+2026-11-27 08:09:18 11380-11380 cr_CombinedPProvider I #linkNativeInternal() 1
+
+2026-11-27 08:09:18 11380-11380 cr_AppResProvider I #getApplicationRestrictionsFromUserManager() Bundle[EMPTY_PARCEL]
+
+2026-11-27 08:09:18 11380-11380 cr_PolicyProvider I #notifySettingsAvailable() 0
+
+2026-11-27 08:09:18 11380-11380 cr_CombinedPProvider I #onSettingsAvailable() 0
+
+2026-11-27 08:09:18 11380-11380 cr_CombinedPProvider I #flushPolicies()
+
+2026-11-27 08:09:18 11380-11380 cr_AppResProvider I #getApplicationRestrictionsFromUserManager() Bundle[EMPTY_PARCEL]
+
+2026-11-27 08:09:18 11380-11380 cr_PolicyProvider I #notifySettingsAvailable() 0
+
+2026-11-27 08:09:18 11380-11380 cr_CombinedPProvider I #onSettingsAvailable() 0
+
+2026-11-27 08:09:18 11380-11380 cr_CombinedPProvider I #flushPolicies()
+
+2026-11-27 08:09:18 11380-11654 CameraManagerGlobal I Connecting to camera service
+
+2026-11-27 08:09:18 11380-11642 cr_media W BLUETOOTH_CONNECT permission is missing.
+
+2026-11-27 08:09:18 11380-11642 cr_media W getBluetoothAdapter() requires BLUETOOTH permission
+
+2026-11-27 08:09:18 11380-11642 cr_media W registerBluetoothIntentsIfNeeded: Requires BLUETOOTH permission
+
+2026-11-27 08:09:18 11380-11642 AudioSystem D onNewService: media.audio_policy service obtained 0xb400007e215a3d10
+
+2026-11-27 08:09:18 11380-11642 AudioSystem D getService: IAudioPolicyService retrieved: 0xb400007e215a3d10  cached: 0xb400007e215a3d10
+
+2026-11-27 08:09:19 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/stream/stream-51.php:21)
+
+2026-11-27 08:09:20 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught TypeError: Cannot read properties of null (reading 'clientHeight') (https://pl29569919.profitableratecpmnetwork.com/1f/b1/b0/1fb1b0ba3934bee0fb513f60318219c8.js:1)
+
+2026-11-27 08:09:20 11380-11642 cr_media W Requires MODIFY_AUDIO_SETTINGS and RECORD_AUDIO. No audio device will be available for recording
+
+2026-11-27 08:09:20 11380-11642 cr_media W Requires MODIFY_AUDIO_SETTINGS and RECORD_AUDIO. No audio device will be available for recording
+
+2026-11-27 08:09:20 11380-11380 GenericWebViewExtractor D JS LOG: Error (https://thedaddy.li/stream/stream-51.php:21)
+
+2026-11-27 08:09:20 11380-11380 GenericWebViewExtractor D JS LOG: Bot and proxy detection by Adscore.com (https://c.adsco.re/:188)
+
+2026-11-27 08:09:20 11380-11380 DrmHalHidl I No hidl drm factories found
+
+2026-11-27 08:09:20 11380-11380 DrmHalHidl W Failed to find passthrough drm factories
+
+2026-11-27 08:09:20 11380-11380 DrmUtils I found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/clearkey]
+
+2026-11-27 08:09:20 11380-11380 DrmUtils I found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/widevine]
+
+2026-11-27 08:09:20 11380-11380 DrmHalHidl I No hidl drm factories found
+
+2026-11-27 08:09:20 11380-11380 DrmHalHidl W Failed to find passthrough drm factories
+
+2026-11-27 08:09:20 11380-11380 DrmUtils I found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/clearkey]
+
+2026-11-27 08:09:20 11380-11380 DrmUtils I found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/widevine]
+
+2026-11-27 08:09:20 11380-11380 cr_MediaDrmBridge I Create MediaDrmBridge with level 1 and origin  for GetVersion
+
+2026-11-27 08:09:20 11380-11380 DrmHalHidl I No hidl drm factories found
+
+2026-11-27 08:09:20 11380-11380 DrmHalHidl W Failed to find passthrough drm factories
+
+2026-11-27 08:09:20 11380-11380 DrmUtils I found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/clearkey]
+
+2026-11-27 08:09:20 11380-11380 DrmUtils I found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/widevine]
+
+2026-11-27 08:09:20 11380-11380 DrmHalHidl I No hidl drm factories found
+
+2026-11-27 08:09:20 11380-11380 DrmHalHidl W Failed to find passthrough drm factories
+
+2026-11-27 08:09:20 11380-11380 DrmUtils I found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/clearkey]
+
+2026-11-27 08:09:20 11380-11380 DrmUtils I found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/widevine]
+
+2026-11-27 08:09:20 11380-11380 cr_MediaDrmBridge I Version: 20.0.0@ZV1R.260313.001
+
+2026-11-27 08:09:20 11380-11380 cr_MediaDrmBridge I oemCryptoBuildInformation: {"soc_vendor": "Widevine","soc_model": "Software","ta_ver": "N/A","uses_opk": false,"tee_os": "N/A","tee_os_ver": "N/A","is_debug": false,"git_commit": "N/A","build_timestamp": "Mar 14 2026 08:16:57","mode": "RIKERS_DEFAULT","rikers": {  "code_protection": true,  "target_build_variant": "user",  "target_release": "cp2a",  "env": "release"},"haystack": {"soc_vendor":"L3_40063","soc_model":"ARM 64 bit","ta_ver":"18.1.0+Dec 15 2025_19:55:11_","uses_opk":false,"tee_os":"none","tee_os_ver":"0.0.0","form_factor":"L3","implementer":"Widevine","fused":false}}
+
+2026-11-27 08:09:20 11380-11380 cr_MediaDrmBridge I Destroying MediaDrmBridge for origin null
+
+2026-11-27 08:09:20 11380-11642 cr_media W Requires MODIFY_AUDIO_SETTINGS and RECORD_AUDIO. No audio device will be available for recording
+
+2026-11-27 08:09:20 11380-11380 GenericWebViewExtractor D JS LOG:
+
+2026-11-27 08:09:20 11380-11380 GenericWebViewExtractor D JS TIP:     (https://c.adsco.re/:114)
+
+2026-11-27 08:09:21 11380-11642 cr_media W Requires MODIFY_AUDIO_SETTINGS and RECORD_AUDIO. No audio device will be available for recording
+
+2026-11-27 08:09:21 11380-11642 AudioSystem D onNewServiceWithAdapter: media.audio_flinger service obtained 0xb400007e1169c610
+
+2026-11-27 08:09:21 11380-11642 AudioSystem D getService: IAudioFlingerService retrieved: 0xb400007e214eb210  IAudioFlinger cached: 0xb400007e1169c610
+
+2026-11-27 08:09:21 11380-11642 AAudio I AAudioStreamBuilder_openStream() called ----------------------------------------
+
+2026-11-27 08:09:21 11380-11642 AudioStreamBuilder I rate   =  48000, channels  = 2, channelMask = 0x3, format   = 0x5, sharing = SH, dir = OUTPUT
+
+2026-11-27 08:09:21 11380-11642 AudioStreamBuilder I devices = AUDIO_PORT_HANDLE_NONE, sessionId = -1, perfMode = 12, callback: ON with frames = 240
+
+2026-11-27 08:09:21 11380-11642 AudioStreamBuilder I usage  =      1, contentType = 0, inputPreset = 0, allowedCapturePolicy = 0
+
+2026-11-27 08:09:21 11380-11642 AudioStreamBuilder I privacy sensitive = false, opPackageName = (null), attributionTag = (null)
+
+2026-11-27 08:09:21 11380-11642 AudioStreamBuilder D build, global mmap policy is 0
+
+2026-11-27 08:09:21 11380-11380 GenericWebViewExtractor D JS LOG: Error (https://dembed.st/premiumtv/daddy.php?id=51:109)
+
+2026-11-27 08:09:21 11380-11642 AudioStreamBuilder D build, system mmap policy is 2
+
+2026-11-27 08:09:21 11380-11642 AudioStreamBuilder D build, final mmap policy is 2
+
+2026-11-27 08:09:21 11380-11642 AudioStreamBuilder D build, system mmap exclusive policy is 2
+
+2026-11-27 08:09:21 11380-11642 AudioStreamBuilder D build, final mmap exclusive policy is 2
+
+2026-11-27 08:09:21 11380-11642 st.cloudstream3 D PlayerBase::PlayerBase()
+
+2026-11-27 08:09:21 11380-11642 AudioStreamInternal_Client D configureDataInformation() original HW burst = 96, minMicros = 2000 => SW burst = 96
+
+2026-11-27 08:09:21 11380-11642 IsochronousClockModel D setFramesPerBurst() - mFramesPerBurst = 96 - mBurstPeriodNanos = 2000000
+
+2026-11-27 08:09:21 11380-11642 AAudioStream D setState(s#1) from 0 to 2
+
+2026-11-27 08:09:21 11380-11642 AAudioFlowGraph D configure() source format = 0x00000005, channels = 2, sample rate = 48000, sink format = 0x00000005, channels = 2, sample rate = 48000, useMonoBlend = 0, audioBalance = 0.000000, useVolumeRamps 0
+
+2026-11-27 08:09:21 11380-11642 AAudio I AAudioStreamBuilder_openStream() got MMAP, devIds = [3], perf = LL, burst = 96
+
+2026-11-27 08:09:21 11380-11642 AAudio I AAudioStreamBuilder_openStream() returns 0 = AAUDIO_OK for s#1 ----------------
+
+2026-11-27 08:09:21 11380-11642 chromium W [WARNING:services/audio/sync_reader.cc:154] ASR: No room in socket buffer.: Broken pipe (32)
+
+2026-11-27 08:09:21 11380-11642 AAudio D AAudioStream_requestStart(s#1) called --------------
+
+2026-11-27 08:09:21 11380-11642 AAudioStream D setState(s#1) from 2 to 3
+
+2026-11-27 08:09:21 11380-11642 AAudio D AAudioStream_requestStart(s#1) returned 0 ---------
+
+2026-11-27 08:09:21 11380-11642 AAudio D AAudioStream_requestStop(s#1) called
+
+2026-11-27 08:09:21 11380-11380 MediaRouter D onRestoreRoute() : route=RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+
+2026-11-27 08:09:21 11380-11380 MediaRouter V Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+
+2026-11-27 08:09:21 11380-11817 AudioStreamInternalPlay_Client D callbackLoop() entering >>>>>>>>>>>>>>>
+
+2026-11-27 08:09:21 11380-11817 AudioStreamInternalPlay_Client D callbackLoop() exiting, result = 0, isActive() = 1 <<<<<<<<<<<<<<
+
+2026-11-27 08:09:21 11380-11642 AAudioStream D joinThread_l() pthread_join succeeded
+
+2026-11-27 08:09:21 11380-11642 IsochronousClockModel D stop(nanos = 537926218202962) max lateness = 0 micros, DSP stalled 0 times
+
+2026-11-27 08:09:21 11380-11642 AAudioStream D setState(s#1) from 3 to 9
+
+2026-11-27 08:09:21 11380-11642 AudioStreamInternal_Client D onEventFromServer - got AAUDIO_SERVICE_EVENT_STARTED
+
+2026-11-27 08:09:21 11380-11642 AudioStreamInternal_Client D onEventFromServer - got AAUDIO_SERVICE_EVENT_STOPPED
+
+2026-11-27 08:09:21 11380-11642 AAudioStream D setState(s#1) from 9 to 10
+
+2026-11-27 08:09:21 11380-11380 GenericWebViewExtractor D JS LOG: undefined (:1)
+
+2026-11-27 08:09:21 11380-11380 GenericWebViewExtractor D JS WARNING: Unrecognized feature: 'xr-spatial-tracking'. (https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit:2)
+
+2026-11-27 08:09:21 11380-11380 GenericWebViewExtractor D JS LOG: console.groupEnd (https://c.adsco.re/:163)
+
+2026-11-27 08:09:21 11380-11380 GenericWebViewExtractor D JS WARNING: Error with Permissions-Policy header: Unrecognized feature: 'hid'. (:0)
+
+2026-11-27 08:09:21 11380-11380 GenericWebViewExtractor D JS WARNING: Error with Permissions-Policy header: Unrecognized feature: 'serial'. (:0)
+
+2026-11-27 08:09:21 11380-11380 GenericWebViewExtractor D JS WARNING: Error with Permissions-Policy header: Unrecognized feature: 'usb'. (:0)
+
+2026-11-27 08:09:21 11380-11380 GenericWebViewExtractor D JS WARNING: Error with Permissions-Policy header: Unrecognized feature: 'xr-spatial-tracking'. (:0)
+
+2026-11-27 08:09:21 11380-11380 GenericWebViewExtractor D JS ERROR: Permissions policy violation: accelerometer is not allowed in this document. (https://ssl.p.jwpcdn.com/player/v/8.51.13/provider.hlsjs.js:10)
+
+2026-11-27 08:09:21 11380-11380 GenericWebViewExtractor D JS WARNING: The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features (https://ssl.p.jwpcdn.com/player/v/8.51.13/provider.hlsjs.js:10)
+
+2026-11-27 08:09:22 11380-11380 GenericWebViewExtractor D JS WARNING: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://challenges.cloudflare.com') does not match the recipient window's origin ('https://dembed.st'). (https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit:2)
+
+2026-11-27 08:09:22 11380-11380 GenericWebViewExtractor D JS WARNING: Error with Permissions-Policy header: Unrecognized feature: 'hid'. (:0)
+
+2026-11-27 08:09:22 11380-11380 GenericWebViewExtractor D JS WARNING: Error with Permissions-Policy header: Unrecognized feature: 'serial'. (:0)
+
+2026-11-27 08:09:22 11380-11380 GenericWebViewExtractor D JS WARNING: Error with Permissions-Policy header: Unrecognized feature: 'usb'. (:0)
+
+2026-11-27 08:09:22 11380-11380 GenericWebViewExtractor D JS WARNING: Error with Permissions-Policy header: Unrecognized feature: 'xr-spatial-tracking'. (:0)
+
+2026-11-27 08:09:22 11380-11658 Dawn W Warning: maxDynamicUniformBuffersPerPipelineLayout artificially reduced from 32 to 16 to fit dynamic offset allocation limit.
+
+2026-11-27 08:09:22 11380-11658 Dawn W Warning: maxDynamicStorageBuffersPerPipelineLayout artificially reduced from 32 to 16 to fit dynamic offset allocation limit.
+
+2026-11-27 08:09:22 11380-11642 AAudio D AAudioStream_requestStart(s#1) called --------------
+
+2026-11-27 08:09:22 11380-11642 AAudioStream D setState(s#1) from 10 to 3
+
+2026-11-27 08:09:22 11380-11380 GenericWebViewExtractor W WebView HTTP 404 for https://thedaddy.li/favicon.ico
+
+2026-11-27 08:09:22 11380-11642 AAudio D AAudioStream_requestStart(s#1) returned 0 ---------
+
+2026-11-27 08:09:22 11380-11875 AudioStreamInternalPlay_Client D callbackLoop() entering >>>>>>>>>>>>>>>
+
+2026-11-27 08:09:22 11380-11875 AudioStreamInternal_Client D onEventFromServer - got AAUDIO_SERVICE_EVENT_STARTED
+
+2026-11-27 08:09:22 11380-11875 AAudioStream D setState(s#1) from 3 to 4
+
+2026-11-27 08:09:22 11380-11380 MediaRouter D onRestoreRoute() : route=RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+
+2026-11-27 08:09:22 11380-11380 MediaRouter V Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+
+2026-11-27 08:09:22 11380-11642 cr_media W Requires MODIFY_AUDIO_SETTINGS and RECORD_AUDIO. No audio device will be available for recording
+
+2026-11-27 08:09:22 11380-11380 GenericWebViewExtractor D JS WARNING: WARNING: Too many active WebGL contexts. Oldest context will be lost. (https://484r.com/apu.php?zoneid=7171200&var=6712285:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor W WebView error -2 for https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a60fa6723c02f2b2/CoVV6MbgalyIjg0RGZrsjbzzicaEW78DQFucltf1vRh22fRe33S1qyeaw29v-LHJA0WRF0I2j_sYwn8OcwjM3Z9hWGmIps2N_WUXwi0urooRUbxitTWP-o9LzQrJiwuVQQ: net::ERR_NAME_NOT_RESOLVED
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor W WebView HTTP 401 for https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a60fa6723c02f2b2/1795766961330/98fa05462cd01ca7051e2c8f2de30047efd245fa7d6f20375e2df002aedc92fa/CqkU-RrwJ07WyCb_nRcekSwd8q0GNNUWACNbnbuPAMeYCx5Odkz1n8ohrKLHyXYSbOHOduQ6Kf6S4LW7nYWROh_qwhYGgTus2M1didpdRTEtu4ChAXG5zz2CYK3QssvfKo-Z9LRGi5t4GLxAImI-8wVjo1qo52nToUIXu568d-Jp6XRho7NzAqodz7itksUU65aTtnfJgI0eFTrIXCHwM34eWoLr2pVusA79fFz20c3u5OlPQs2vmqnqgD2mcLthKIt-9oxvilcuJdknCddNfX1SqAxvSXJmhmTQOc0JWSTlK9KEgKT58fdTlys3Q-S6Vv5nN6IpU8AJAoNPMIt7jVCl1tRWeMaSmfzW7-OoD0ZCr4qisZIu9j4XtT71Z-g5HdA_ClbMWoyRj0HI3LwsSw7YwOMmrBvn_HsUnjnZtb86DWBdFT-V-WnRBtpsgDwt1gJJRCZoAc13l3sQAFalvmWo_DHfgSl0GmDYkWeDJdPeaBQjzoP5bdvfFg6fl6RiWdwUrqGwYLdoNuC3abRfF8sI5IP6SiPFeHlNTNILus5Gol6yk9o7stTjJRstj4R-D5VOqSxGdsq9oConalK8lzphbao-Kue58YkoF5JJu_QTJEmn9KUKdZz8jqUwbIbv6ChydQNrpomo6523C_vr
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: undefined (:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: Error (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent Error (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent Error (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent Error (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent Error (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent Error (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent Error (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent Error (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent Error (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent Error (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent Error (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent Error (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent Error (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent Error (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent Error (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent [object NodeList] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent [object NodeList] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent [object DOMTokenList] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent [object DOMTokenList] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent [object HTMLCollection] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent [object HTMLCollection] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: _9c5724bf8f359ef26db7e12a (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: _9c5724bf8f359ef26db7e12a (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: _178ab02f6f68172008e58748 (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: _178ab02f6f68172008e58748 (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: [object HTMLAnchorElement] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: [object HTMLAnchorElement] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: �: 1 (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: �: 1 (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o: 1 (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o: 1 (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%d font-size:0;color:transparent NaN (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%d font-size:0;color:transparent NaN (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent [object Object] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS TIP: %c%o font-size:0;color:transparent [object Object] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG:  _58ffb818a4f072d3edced1ec: _bcfffa9c7642a8b35d0a644b (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG:  _58ffb818a4f072d3edced1ec: _bcfffa9c7642a8b35d0a644b (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%o font-size:0;color:transparent [object Object] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%o font-size:0;color:transparent [object Object] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%d font-size:0;color:transparent _58ffb818a4f072d3edced1ec: _bcfffa9c7642a8b35d0a644b (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%d font-size:0;color:transparent _58ffb818a4f072d3edced1ec: _bcfffa9c7642a8b35d0a644b (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%o font-size:0;color:transparent [object Object] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%o font-size:0;color:transparent [object Object] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS ERROR: %c%d font-size:0;color:transparent NaN (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS ERROR: %c%d font-size:0;color:transparent NaN (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS ERROR: %c%o font-size:0;color:transparent [object Object] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS ERROR: %c%o font-size:0;color:transparent [object Object] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%d font-size:0;color:transparent NaN (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%d font-size:0;color:transparent NaN (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%o font-size:0;color:transparent [object Object] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%o font-size:0;color:transparent [object Object] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%d font-size:0;color:transparent NaN (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%d font-size:0;color:transparent NaN (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%o font-size:0;color:transparent [object Object] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%o font-size:0;color:transparent [object Object] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%d font-size:0;color:transparent _58ffb818a4f072d3edced1ec: _bcfffa9c7642a8b35d0a644b (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%d font-size:0;color:transparent _58ffb818a4f072d3edced1ec: _bcfffa9c7642a8b35d0a644b (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%o font-size:0;color:transparent [object Object] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%o font-size:0;color:transparent [object Object] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%d font-size:0;color:transparent NaN (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%d font-size:0;color:transparent NaN (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%o font-size:0;color:transparent [object Object] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: %c%o font-size:0;color:transparent [object Object] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS WARNING: %c%d font-size:0;color:transparent NaN (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS WARNING: %c%d font-size:0;color:transparent NaN (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS WARNING: %c%o font-size:0;color:transparent [object Object] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS WARNING: %c%o font-size:0;color:transparent [object Object] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS LOG: console.groupEnd (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS ERROR: Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been blocked. (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS ERROR: Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been blocked. (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS ERROR: Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been blocked. (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:23 11380-11380 GenericWebViewExtractor D JS ERROR: Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy. (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:24 11380-11380 GenericWebViewExtractor D JS WARNING: OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:1)
+
+2026-11-27 08:09:24 11380-11380 GenericWebViewExtractor D JS WARNING: No available adapters. (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/dev2x/0x4AAAAAAF7J_a5qgDLdsENU/auto/fbE/new/normal?lang=auto:0)
+
+2026-11-27 08:09:26 11380-11624 GenericWebViewExtractor D Captured requested HLS source: https://edge.wedd48c.top/premium51/index.m3u8
+
+2026-11-27 08:09:26 11380-11624 GenericWebViewExtractor D Captured requested HLS source: https://edge.wedd48c.top/premium51/index.m3u8
+
+2026-11-27 08:09:26 11380-11380 GenericWebViewExtractor D JS ERROR: Permissions policy violation: screen-wake-lock is not allowed in this document. (https://dembed.st/premiumtv/daddy.min.js?v=1795242731:1)
+
+2026-11-27 08:09:30 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught TypeError: eP is not a function (https://ns.livenswhacked.com/r6fisEJrR5zLry/142161:1)
+
+2026-11-27 08:09:30 11380-11642 AAudio D AAudioStream_requestStop(s#1) called
+
+2026-11-27 08:09:30 11380-11875 AudioStreamInternalPlay_Client D callbackLoop() exiting, result = 240, isActive() = 1 <<<<<<<<<<<<<<
+
+2026-11-27 08:09:30 11380-11642 AAudioStream D joinThread_l() pthread_join succeeded
+
+2026-11-27 08:09:30 11380-11642 IsochronousClockModel D stop(nanos = 537935630995203) max lateness = 356 micros, DSP stalled 0 times
+
+2026-11-27 08:09:30 11380-11642 AAudioStream D setState(s#1) from 4 to 9
+
+2026-11-27 08:09:30 11380-11429 GenericWebViewExtractor D Loading player source: https://thedaddy.li/watch.php?id=51
+
+2026-11-27 08:09:30 11380-11642 AudioStreamInternal_Client D onEventFromServer - got AAUDIO_SERVICE_EVENT_STOPPED
+
+2026-11-27 08:09:30 11380-11642 AAudioStream D setState(s#1) from 9 to 10
+
+2026-11-27 08:09:30 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught ReferenceError: aclib is not defined (https://thedaddy.li/watch.php?id=51:7)
+
+2026-11-27 08:09:31 11380-11380 GenericWebViewExtractor D JS LOG: Bot and proxy detection by Adscore.com (https://c.adsco.re/:188)
+
+2026-11-27 08:09:31 11380-11642 cr_media W Requires MODIFY_AUDIO_SETTINGS and RECORD_AUDIO. No audio device will be available for recording
+
+2026-11-27 08:09:31 11380-11642 cr_media W Requires MODIFY_AUDIO_SETTINGS and RECORD_AUDIO. No audio device will be available for recording
+
+2026-11-27 08:09:31 11380-11380 GenericWebViewExtractor D JS LOG: console.groupEnd (https://c.adsco.re/:163)
+
+2026-11-27 08:09:31 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/stream/stream-51.php:21)
+
+2026-11-27 08:09:31 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught TypeError: Cannot read properties of null (reading 'appendChild') (https://pl29569919.profitableratecpmnetwork.com/1f/b1/b0/1fb1b0ba3934bee0fb513f60318219c8.js:1)
+
+2026-11-27 08:09:31 11380-11642 cr_media W Requires MODIFY_AUDIO_SETTINGS and RECORD_AUDIO. No audio device will be available for recording
+
+2026-11-27 08:09:31 11380-11642 cr_media W Requires MODIFY_AUDIO_SETTINGS and RECORD_AUDIO. No audio device will be available for recording
+
+2026-11-27 08:09:32 11380-11380 GenericWebViewExtractor D JS LOG: undefined (:1)
+
+2026-11-27 08:09:32 11380-11642 cr_media W Requires MODIFY_AUDIO_SETTINGS and RECORD_AUDIO. No audio device will be available for recording
+
+2026-11-27 08:09:32 11380-11380 GenericWebViewExtractor D JS LOG: Error (https://thedaddy.li/stream/stream-51.php:21)
+
+2026-11-27 08:09:32 11380-11380 GenericWebViewExtractor D JS LOG: Error (https://dembed.st/premiumtv/daddy.php?id=51:109)
+
+2026-11-27 08:09:32 11380-11380 GenericWebViewExtractor D JS WARNING: Unrecognized feature: 'xr-spatial-tracking'. (https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit:2)
+
+2026-11-27 08:09:32 11380-11380 GenericWebViewExtractor D JS WARNING: WARNING: Too many active WebGL contexts. Oldest context will be lost. (https://dembed.st/premiumtv/daddy.php?id=51:109)
+
+2026-11-27 08:09:32 11380-11380 GenericWebViewExtractor D JS ERROR: Permissions policy violation: accelerometer is not allowed in this document. (https://ssl.p.jwpcdn.com/player/v/8.51.13/provider.hlsjs.js:10)
+
+2026-11-27 08:09:32 11380-11380 GenericWebViewExtractor D JS WARNING: The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features (https://ssl.p.jwpcdn.com/player/v/8.51.13/provider.hlsjs.js:10)
+
+2026-11-27 08:09:32 11380-11380 GenericWebViewExtractor D JS WARNING: Error with Permissions-Policy header: Unrecognized feature: 'hid'. (:0)
+
+2026-11-27 08:09:32 11380-11380 GenericWebViewExtractor D JS WARNING: Error with Permissions-Policy header: Unrecognized feature: 'serial'. (:0)
+
+2026-11-27 08:09:32 11380-11380 GenericWebViewExtractor D JS WARNING: Error with Permissions-Policy header: Unrecognized feature: 'usb'. (:0)
+
+2026-11-27 08:09:32 11380-11380 GenericWebViewExtractor D JS WARNING: Error with Permissions-Policy header: Unrecognized feature: 'xr-spatial-tracking'. (:0)
+
+2026-11-27 08:09:32 11380-11380 GenericWebViewExtractor D JS WARNING: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://challenges.cloudflare.com') does not match the recipient window's origin ('https://dembed.st'). (https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit:2)
+
+2026-11-27 08:09:32 11380-11380 GenericWebViewExtractor D JS WARNING: An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (about:srcdoc:0)
+
+2026-11-27 08:09:32 11380-11380 GenericWebViewExtractor D JS WARNING: Error with Permissions-Policy header: Unrecognized feature: 'hid'. (:0)
+
+2026-11-27 08:09:32 11380-11380 GenericWebViewExtractor D JS WARNING: Error with Permissions-Policy header: Unrecognized feature: 'serial'. (:0)
+
+2026-11-27 08:09:32 11380-11380 GenericWebViewExtractor D JS WARNING: Error with Permissions-Policy header: Unrecognized feature: 'usb'. (:0)
+
+2026-11-27 08:09:32 11380-11380 GenericWebViewExtractor D JS WARNING: Error with Permissions-Policy header: Unrecognized feature: 'xr-spatial-tracking'. (:0)
+
+2026-11-27 08:09:33 11380-11658 Dawn W Warning: maxDynamicUniformBuffersPerPipelineLayout artificially reduced from 32 to 16 to fit dynamic offset allocation limit.
+
+2026-11-27 08:09:33 11380-11658 Dawn W Warning: maxDynamicStorageBuffersPerPipelineLayout artificially reduced from 32 to 16 to fit dynamic offset allocation limit.
+
+2026-11-27 08:09:33 11380-11642 AAudio D AAudioStream_requestStart(s#1) called --------------
+
+2026-11-27 08:09:33 11380-11642 AAudioStream D setState(s#1) from 10 to 3
+
+2026-11-27 08:09:33 11380-11642 AAudio D AAudioStream_requestStart(s#1) returned 0 ---------
+
+2026-11-27 08:09:33 11380-11380 MediaRouter D onRestoreRoute() : route=RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+
+2026-11-27 08:09:33 11380-11380 MediaRouter V Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+
+2026-11-27 08:09:33 11380-12050 AudioStreamInternalPlay_Client D callbackLoop() entering >>>>>>>>>>>>>>>
+
+2026-11-27 08:09:33 11380-12050 AudioStreamInternal_Client D onEventFromServer - got AAUDIO_SERVICE_EVENT_STARTED
+
+2026-11-27 08:09:33 11380-12050 AAudioStream D setState(s#1) from 3 to 4
+
+2026-11-27 08:09:33 11380-12050 chromium W [WARNING:services/audio/sync_reader.cc:154] ASR: No room in socket buffer.: Broken pipe (32)
+
+2026-11-27 08:09:33 11380-11642 AAudio D AAudioStream_requestStop(s#1) called
+
+2026-11-27 08:09:33 11380-12050 AudioStreamInternalPlay_Client D callbackLoop() exiting, result = 240, isActive() = 1 <<<<<<<<<<<<<<
+
+2026-11-27 08:09:33 11380-11642 AAudioStream D joinThread_l() pthread_join succeeded
+
+2026-11-27 08:09:33 11380-11642 IsochronousClockModel D stop(nanos = 537938214188034) max lateness = 356 micros, DSP stalled 0 times
+
+2026-11-27 08:09:33 11380-11642 AAudioStream D setState(s#1) from 4 to 9
+
+2026-11-27 08:09:33 11380-11642 AudioStreamInternal_Client D onEventFromServer - got AAUDIO_SERVICE_EVENT_STOPPED
+
+2026-11-27 08:09:33 11380-11642 AAudioStream D setState(s#1) from 9 to 10
+
+2026-11-27 08:09:33 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/hub/stream-51.php:23)
+
+2026-11-27 08:09:34 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/hub/stream-51.php:23)
+
+2026-11-27 08:09:34 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/hub/stream-51.php:23)
+
+2026-11-27 08:09:35 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/hub/stream-51.php:23)
+
+2026-11-27 08:09:35 11380-11380 GenericWebViewExtractor D JS TIP:  [  1.495s] [chatango.group.Group] Triggering RklModule default ad request:false (https://st.chatango.com/h5/gz/r1118261513/it.html:70)
+
+2026-11-27 08:09:35 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/hub/stream-51.php:23)
+
+2026-11-27 08:09:35 11380-11380 GenericWebViewExtractor D JS TIP:  [  1.885s] [chatango.group.Group] Requesting RklModule default ad request (https://st.chatango.com/h5/gz/r1118261513/it.html:70)
+
+2026-11-27 08:09:36 11380-11642 cr_media W Requires MODIFY_AUDIO_SETTINGS and RECORD_AUDIO. No audio device will be available for recording
+
+2026-11-27 08:09:36 11380-11642 cr_media W Requires MODIFY_AUDIO_SETTINGS and RECORD_AUDIO. No audio device will be available for recording
+
+2026-11-27 08:09:36 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/hub/stream-51.php:23)
+
+2026-11-27 08:09:36 11380-11380 GenericWebViewExtractor D JS LOG: undefined (:1)
+
+2026-11-27 08:09:36 11380-11380 GenericWebViewExtractor D JS WARNING: document.domain mutation is ignored because the surrounding agent cluster is origin-keyed. (https://ueuee.com/tag.min.js:1)
+
+2026-11-27 08:09:36 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/hub/stream-51.php:23)
+
+2026-11-27 08:09:36 11380-11650 chromium W [WARNING:net/spdy/spdy_session.cc:3195] Received HEADERS for invalid stream 21
+
+2026-11-27 08:09:37 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/hub/stream-51.php:23)
+
+2026-11-27 08:09:37 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/hub/stream-51.php:23)
+
+2026-11-27 08:09:38 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/hub/stream-51.php:23)
+
+2026-11-27 08:09:38 11380-11642 AAudio D AAudioStream_requestStop(s#1) called
+
+2026-11-27 08:09:38 11380-11642 AAudio D AAudioStream_close(s#1) called ---------------
+
+2026-11-27 08:09:38 11380-11642 AudioStreamInternal_Client D release_l(): mServiceStreamHandle = 0x000001AC
+
+2026-11-27 08:09:38 11380-11642 AAudioStream D setState(s#1) from 10 to 11
+
+2026-11-27 08:09:38 11380-11642 AAudioStream D setState(s#1) from 11 to 11
+
+2026-11-27 08:09:38 11380-11642 AAudioStream D setState(s#1) from 11 to 12
+
+2026-11-27 08:09:38 11380-11642 AudioStreamInternal_Client D ~AudioStreamInternal() 0xb400007e31539410 called
+
+2026-11-27 08:09:38 11380-11642 AAudioStream D ~AudioStream(s#1) mPlayerBase strongCount = 2
+
+2026-11-27 08:09:38 11380-11642 AAudio D AAudioStream_close(s#1) returned 0 ---------
+
+2026-11-27 08:09:38 11380-11435 DaddyLiveProvider D Returning after first DaddyLive link: false; remaining sources continue in background
+
+2026-11-27 08:09:38 11380-11380 COMPACT I showToast = No Links Found
+
+2026-11-27 08:09:38 11380-11380 Toast E setGravity() shouldn't be called on text toasts, the values won't be used
+
+2026-11-27 08:09:38 11380-11380 popFragment D Destroying Fragment
+
+2026-11-27 08:09:38 11380-11380 popFragment D Destroying Fragment
+
+2026-11-27 08:09:38 11380-11380 ImeTracker I com.lagradost.cloudstream3:d83c1480: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 08:09:38 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:38 11380-11380 ImeTracker I com.lagradost.cloudstream3:d83c1480: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:38 11380-11380 CS3ExoPlayer I onStop
+
+2026-11-27 08:09:38 11380-11380 CS3ExoPlayer I saveData
+
+2026-11-27 08:09:38 11380-11380 CS3ExoPlayer I handleEvent Pause
+
+2026-11-27 08:09:38 11380-11380 Resources W Drawable com.lagradost.cloudstream3:drawable/go_forward_30 has unresolved theme attributes! Consider using Resources.getDrawable(int, Theme) or Context.getDrawable(int).
+java.lang.RuntimeException
+	at android.content.res.Resources.getDrawable(Resources.java:928)
+	at com.google.android.gms.cast.framework.media.widget.zzq.zzd(com.google.android.gms:play-services-cast-framework@@22.1.0:2)
+	at com.google.android.gms.cast.framework.media.widget.zzq.zzc(com.google.android.gms:play-services-cast-framework@@22.1.0:1)
+	at com.google.android.gms.cast.framework.media.widget.MiniControllerFragment.zza(com.google.android.gms:play-services-cast-framework@@22.1.0:41)
+	at com.google.android.gms.cast.framework.media.widget.MiniControllerFragment.onCreateView(com.google.android.gms:play-services-cast-framework@@22.1.0:30)
+	at androidx.fragment.app.Fragment.performCreateView(Fragment.java:3119)
+	at androidx.fragment.app.FragmentStateManager.ensureInflatedView(FragmentStateManager.java:418)
+	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:285)
+	at androidx.fragment.app.FragmentLayoutInflaterFactory.onCreateView(FragmentLayoutInflaterFactory.java:142)
+	at android.view.LayoutInflater$FactoryMerger.onCreateView(LayoutInflater.java:223)
+	at android.view.LayoutInflater.tryCreateView(LayoutInflater.java:951)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:888)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:852)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1013)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:974)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1017)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:974)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1017)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:974)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:573)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:464)
+	at com.lagradost.cloudstream3.databinding.FragmentResultSwipeBinding.inflate(FragmentResultSwipeBinding.java:140)
+	at com.lagradost.cloudstream3.ui.result.ResultFragmentPhone$1.invoke(ResultFragmentPhone.kt:112)
+	at com.lagradost.cloudstream3.ui.result.ResultFragmentPhone$1.invoke(ResultFragmentPhone.kt:112)
+	at com.lagradost.cloudstream3.ui.BaseFragmentHelper$-CC.$default$createBinding(BaseFragment.kt:51)
+	at com.lagradost.cloudstream3.ui.BaseFragment.createBinding(BaseFragment.kt:124)
+	at com.lagradost.cloudstream3.ui.BaseFragment.onCreateView(BaseFragment.kt:160)
+	at androidx.fragment.app.Fragment.performCreateView(Fragment.java:3119)
+	at androidx.fragment.app.FragmentStateManager.createView(FragmentStateManager.java:577)
+	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:286)
+	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:2205)
+	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:2115)
+	at androidx.fragment.app.FragmentManager.popBackStackImmediate(FragmentManager.java:1116)
+	at androidx.fragment.app.FragmentManager.popBackStackImmediate(FragmentManager.java:998)
+	at androidx.fragment.app.FragmentManager.handleOnBackPressed(FragmentManager.java:914)
+	at androidx.fragment.app.FragmentManager$1.handleOnBackPressed(FragmentManager.java:572)
+	at androidx.activity.OnBackPressedCallback$OnBackPressedEventHandler.onBackCompleted(OnBackPressedCallback.kt:172)
+	at androidx.navigationevent.NavigationEventHandler.doOnBackCompleted$navigationevent(NavigationEventHandler.kt:242)
+	at androidx.navigationevent.NavigationEventProcessor.dispatchOnCompleted(NavigationEventProcessor.kt:487)
+	at androidx.navigationevent.NavigationEventDispatcher.dispatchOnCompleted$navigationevent(NavigationEventDispatcher.kt:383)
+	at androidx.navigationevent.NavigationEventInput.dispatchOnBackCompleted(NavigationEventInput.kt:227)
+
+2026-11-27 08:09:38 11380-11380 Resources W at androidx.activity.OnBackPressedDispatcher$OnBackPressedEventInput.backCompleted(OnBackPressedDispatcher.kt:303)
+	at androidx.activity.OnBackPressedDispatcher.onBackPressed(OnBackPressedDispatcher.kt:248)
+	at com.lagradost.cloudstream3.utils.BackPressedCallbackHelper$CallbackHelper.runDefault(BackPressedCallbackHelper.kt:22)
+	at com.lagradost.cloudstream3.MainActivity.onCreate$lambda$25(MainActivity.kt:2059)
+	at com.lagradost.cloudstream3.MainActivity$$ExternalSyntheticLambda1.invoke(D8$$SyntheticClass:0)
+	at com.lagradost.cloudstream3.utils.BackPressedCallbackHelper$attachBackPressedCallback$newCallback$1.handleOnBackPressed(BackPressedCallbackHelper.kt:40)
+	at androidx.activity.OnBackPressedCallback$OnBackPressedEventHandler.onBackCompleted(OnBackPressedCallback.kt:172)
+	at androidx.navigationevent.NavigationEventHandler.doOnBackCompleted$navigationevent(NavigationEventHandler.kt:242)
+	at androidx.navigationevent.NavigationEventProcessor.dispatchOnCompleted(NavigationEventProcessor.kt:487)
+	at androidx.navigationevent.NavigationEventDispatcher.dispatchOnCompleted$navigationevent(NavigationEventDispatcher.kt:383)
+	at androidx.navigationevent.NavigationEventInput.dispatchOnBackCompleted(NavigationEventInput.kt:227)
+	at androidx.activity.OnBackPressedDispatcher$OnBackPressedEventInput.backCompleted(OnBackPressedDispatcher.kt:303)
+	at androidx.activity.OnBackPressedDispatcher.onBackPressed(OnBackPressedDispatcher.kt:248)
+	at com.lagradost.cloudstream3.utils.UIHelper$popCurrentPage$1.invokeSuspend(UIHelper.kt:294)
+	at com.lagradost.cloudstream3.utils.UIHelper$popCurrentPage$1.invoke(UIHelper.kt:8)
+	at com.lagradost.cloudstream3.utils.UIHelper$popCurrentPage$1.invoke(UIHelper.kt:4)
+	at com.lagradost.cloudstream3.utils.Coroutines$main$1.invokeSuspend(Coroutines.kt:20)
+	at com.lagradost.cloudstream3.utils.Coroutines$main$1.invoke(Coroutines.kt:8)
+	at com.lagradost.cloudstream3.utils.Coroutines$main$1.invoke(Coroutines.kt:4)
+	at com.lagradost.cloudstream3.mvvm.ArchComponentExtKt$launchSafe$obj$1.invokeSuspend(ArchComponentExt.kt:156)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at android.os.Handler.handleCallback(Handler.java:1082)
+	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+	at android.os.Handler.dispatchMessage(Handler.java:126)
+	at android.os.Looper.loopOnce(Looper.java:295)
+	at android.os.Looper.loop(Looper.java:398)
+	at android.app.ActivityThread.main(ActivityThread.java:9569)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:575)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:918)
+
+2026-11-27 08:09:38 11380-11380 CS3ExoPlayer I SET STYLE = SaveCaptionStyle(foregroundColor=-1, backgroundColor=0, windowColor=0, edgeType=1, edgeColor=-16777216, font=null, typefaceFilePath=null, elevation=20, fixedTextSize=null, edgeSize=null, removeCaptions=false, removeBloat=true, upperCase=false, bold=false, italic=false, backgroundRadius=null, alignment=null)
+
+2026-11-27 08:09:38 11380-11380 ImeTracker I com.lagradost.cloudstream3:d7d74431: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 08:09:38 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:38 11380-11380 ImeTracker I com.lagradost.cloudstream3:d7d74431: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:38 11380-11435 SYNCVM I addFromUrl = https://thedaddy.li/watch.php?id=51
+
+2026-11-27 08:09:38 11380-11435 SYNCUTIL I getIdsFromUrl https://thedaddy.li/watch.php?id=51
+
+2026-11-27 08:09:38 11380-11380 InsetsController D Setting requestedVisibleTypes to 503 (was 496)
+
+2026-11-27 08:09:38 11380-11429 SYNCVM I addFromUrl = https://thedaddy.li/watch.php?id=51
+
+2026-11-27 08:09:38 11380-11380 CS3ExoPlayer I reloadPlayer
+
+2026-11-27 08:09:38 11380-11380 CS3ExoPlayer I releasePlayer
+
+2026-11-27 08:09:38 11380-11429 SYNCUTIL I getIdsFromUrl https://thedaddy.li/watch.php?id=51
+
+2026-11-27 08:09:38 11380-11380 PlayerView I Handle event: PlayerAttachedEvent(player=null, source=Player)
+
+2026-11-27 08:09:38 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/hub/stream-51.php:23)
+
+2026-11-27 08:09:38 11380-11380 Surface I Creating surface for consumer unnamed-11380-6 with slotExpansion=1 for 64 slots
+
+2026-11-27 08:09:38 11380-11380 Surface I Creating surface for consumer VRI[Toast]#6(BLAST Consumer)6 with slotExpansion=1 for 64 slots
+
+2026-11-27 08:09:38 11380-11380 VRI[MainActivity] D WindowInsets changed: statusBars:[0,54,0,0] navigationBars:[0,0,0,54]
+
+2026-11-27 08:09:38 11380-11380 View W requestLayout() improperly called by androidx.media3.ui.AspectRatioFrameLayout{e29e748 V.E...... ......ID 0,0-2095,450 #7f0a01bc app:id/exo_content_frame} during layout: running second layout pass
+
+2026-11-27 08:09:38 11380-11380 View W requestLayout() improperly called by android.view.View{c9a2ff4 V.ED..... ......ID 0,0-2095,450 #7f0a01f1 app:id/extra_brightness_overlay} during layout: running second layout pass
+
+2026-11-27 08:09:38 11380-11380 View W requestLayout() improperly called by android.widget.FrameLayout{7db9555 I.E...... ......I. 0,0-0,0 #7f0a056a app:id/start_panel} during layout: running second layout pass
+
+2026-11-27 08:09:38 11380-11380 View W requestLayout() improperly called by android.widget.FrameLayout{fb20fe7 I.E...... ......ID 2095,0-2095,787 #7f0a019b app:id/end_panel aid=1073742092} during layout: running second layout pass
+
+2026-11-27 08:09:38 11380-11380 Surface I Creating surface for consumer unnamed-11380-7 with slotExpansion=1 for 64 slots
+
+2026-11-27 08:09:38 11380-11380 Surface I Creating surface for consumer 943c908 SurfaceView[com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity]#7(BLAST Consumer)7 with slotExpansion=1 for 64 slots
+
+2026-11-27 08:09:38 11380-11380 ImeTracker I com.lagradost.cloudstream3:c735de7b: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 08:09:38 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:38 11380-11380 ImeTracker I com.lagradost.cloudstream3:c735de7b: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:38 11380-11380 VRI[MainActivity] D WindowInsets changed: 1008x2244 navigationBars:null mandatorySystemGestures:[0,176,0,72]
+
+2026-11-27 08:09:38 11380-11380 View W requestLayout() improperly called by androidx.media3.ui.AspectRatioFrameLayout{e29e748 V.E...... ......ID 0,0-1008,450 #7f0a01bc app:id/exo_content_frame aid=1073742113} during layout: running second layout pass
+
+2026-11-27 08:09:38 11380-11380 View W requestLayout() improperly called by android.view.View{c9a2ff4 V.ED..... ......I. 0,0-2095,450 #7f0a01f1 app:id/extra_brightness_overlay} during layout: running second layout pass
+
+2026-11-27 08:09:38 11380-11400 BLASTBufferQueue W Attempting to clear sync transaction when none are active
+
+2026-11-27 08:09:38 11380-11429 SYNCVM I updateUserData
+
+2026-11-27 08:09:38 11380-11380 CS3ExoPlayer I releasePlayer
+
+2026-11-27 08:09:38 11380-11380 PlayerView I Handle event: PlayerAttachedEvent(player=null, source=Player)
+
+2026-11-27 08:09:39 11380-11380 VRI[MainActivity] D WindowInsets changed: statusBars:[0,149,0,0] navigationBars:[0,0,0,54]
+
+2026-11-27 08:09:39 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/hub/stream-51.php:23)
+
+2026-11-27 08:09:39 11380-11650 chromium W [WARNING:net/spdy/spdy_session.cc:3195] Received HEADERS for invalid stream 5
+
+2026-11-27 08:09:39 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/hub/stream-51.php:23)
+
+2026-11-27 08:09:40 11380-11380 ImeTracker I com.lagradost.cloudstream3:764f28c0: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 08:09:40 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:40 11380-11380 ImeTracker I com.lagradost.cloudstream3:764f28c0: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:40 11380-11380 CS3ExoPlayer I onStop
+
+2026-11-27 08:09:40 11380-11380 CS3ExoPlayer I saveData
+
+2026-11-27 08:09:40 11380-11380 CS3ExoPlayer I handleEvent Pause
+
+2026-11-27 08:09:40 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/hub/stream-51.php:23)
+
+2026-11-27 08:09:40 11380-11380 AutofillManager D view not autofillable - not passing ime action check
+
+2026-11-27 08:09:40 11380-11380 CS3ExoPlayer I releasePlayer
+
+2026-11-27 08:09:40 11380-11380 PlayerView I Handle event: PlayerAttachedEvent(player=null, source=Player)
+
+2026-11-27 08:09:40 11380-11650 chromium W [WARNING:net/spdy/spdy_session.cc:3195] Received HEADERS for invalid stream 9
+
+2026-11-27 08:09:40 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/hub/stream-51.php:23)
+
+2026-11-27 08:09:40 11380-11380 ImeTracker I com.lagradost.cloudstream3:422285cf: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 08:09:40 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:40 11380-11380 ImeTracker I com.lagradost.cloudstream3:422285cf: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:40 11380-11380 CoilImgLoader E Image load error: HTTP 404
+
+2026-11-27 08:09:40 11380-11380 CoilImgLoader E URL: https://raw.githubusercontent.com/bensmithgb53/StreamBTW-Cloudstream/builds/Daddylive/daddylive.jpg
+
+2026-11-27 08:09:40 11380-11380 CoilImgLoader E allowHardware: true
+
+2026-11-27 08:09:40 11380-11380 CoilImgLoader E hardware: komodo, board: komodo
+
+2026-11-27 08:09:40 11380-11380 CoilImgLoader E Image load error: Unable to resolve host "ppv.st": No address associated with hostname
+
+2026-11-27 08:09:40 11380-11380 CoilImgLoader E URL: https://ppv.st/assets/img/ppv.png
+
+2026-11-27 08:09:40 11380-11380 CoilImgLoader E allowHardware: true
+
+2026-11-27 08:09:40 11380-11380 CoilImgLoader E hardware: komodo, board: komodo
+
+2026-11-27 08:09:40 11380-11380 CoilImgLoader E Image load error: Unable to resolve host "streamed.st": No address associated with hostname
+
+2026-11-27 08:09:40 11380-11380 CoilImgLoader E URL: https://streamed.st/favicon.png
+
+2026-11-27 08:09:40 11380-11380 CoilImgLoader E allowHardware: true
+
+2026-11-27 08:09:40 11380-11380 CoilImgLoader E hardware: komodo, board: komodo
+
+2026-11-27 08:09:40 11380-11380 CoilImgLoader E Image load error: HTTP 403
+
+2026-11-27 08:09:40 11380-11380 CoilImgLoader E URL: https://tap4sport.st/favicon.ico
+
+2026-11-27 08:09:40 11380-11380 CoilImgLoader E allowHardware: true
+
+2026-11-27 08:09:40 11380-11380 CoilImgLoader E hardware: komodo, board: komodo
+
+2026-11-27 08:09:40 11380-11650 chromium W [WARNING:net/spdy/spdy_session.cc:3195] Received HEADERS for invalid stream 11
+
+2026-11-27 08:09:40 11380-11380 AutofillManager D view not autofillable - not passing ime action check
+
+2026-11-27 08:09:40 11380-11380 AutofillManager D view not autofillable - not passing ime action check
+
+2026-11-27 08:09:41 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/hub/stream-51.php:23)
+
+2026-11-27 08:09:41 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught TypeError: eP is not a function (https://laborer.cogwayskerb.com/sii7xRRWeCF/142162:1)
+
+2026-11-27 08:09:41 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/hub/stream-51.php:23)
+
+2026-11-27 08:09:41 11380-11650 chromium W [WARNING:net/spdy/spdy_session.cc:3195] Received HEADERS for invalid stream 15
+
+2026-11-27 08:09:42 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/hub/stream-51.php:23)
+
+2026-11-27 08:09:42 11380-11380 ImeTracker I com.lagradost.cloudstream3:6e39c06b: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 08:09:42 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:42 11380-11380 ImeTracker I com.lagradost.cloudstream3:6e39c06b: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:42 11380-11380 GenericWebViewExtractor D JS ERROR: Uncaught (in promise) TypeError: Cannot read properties of null (reading 'clientWidth') (https://thedaddy.li/hub/stream-51.php:23)
+
+2026-11-27 08:09:42 11380-11411 GenericWebViewExtractor D Loading player source: https://dembed.st/premiumtv/daddy.php?id=51
+
+2026-11-27 08:09:42 11380-11380 GenericWebViewExtractor W WebView HTTP 403 for https://dembed.st/premiumtv/daddy.php?id=51
+
+2026-11-27 08:09:42 11380-11380 GenericWebViewExtractor W WebView HTTP 404 for https://dembed.st/favicon.ico
+
+2026-11-27 08:09:43 11380-11380 NavComponent I Navigating to fragment: 2131361881
+
+2026-11-27 08:09:43 11380-11380 ImeTracker I com.lagradost.cloudstream3:74f9b2f7: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser true userId 0 displayId 0
+
+2026-11-27 08:09:43 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:43 11380-11380 ImeTracker I com.lagradost.cloudstream3:74f9b2f7: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:44 11380-11380 DecorView[MainActivity] V Dropping touch event due to ongoing back gesture: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=870.9746, y[0]=1336.2002, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x20, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=537949148, downTime=537949100, deviceId=3, source=0x1002, displayId=0, eventId=1344997951 }
+
+2026-11-27 08:09:44 11380-11380 ImeTracker I com.lagradost.cloudstream3:c02b2a2b: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 08:09:44 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:44 11380-11380 ImeTracker I com.lagradost.cloudstream3:c02b2a2b: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:44 11380-11380 NavComponent I Navigating to fragment: 2131361887
+
+2026-11-27 08:09:44 11380-11380 ImeTracker I com.lagradost.cloudstream3:52a47d43: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser true userId 0 displayId 0
+
+2026-11-27 08:09:44 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:44 11380-11380 ImeTracker I com.lagradost.cloudstream3:52a47d43: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:46 11380-11380 WindowOnBackDispatcher D setTopOnBackInvokedCallback (unwrapped): android.app.Dialog$$ExternalSyntheticLambda2@5c55e19
+
+2026-11-27 08:09:46 11380-11380 WindowOnBackDispatcher D setTopOnBackInvokedCallback (unwrapped): androidx.navigationevent.OnBackInvokedInput$createOnBackAnimationCallback$1@80adede
+
+2026-11-27 08:09:46 11380-11440 WindowOnBackDispatcher D setOnBackInvokedCallbackInfo: androidx.navigationevent.OnBackInvokedInput$createOnBackAnimationCallback$1@80adede
+
+2026-11-27 08:09:46 11380-11380 Surface I Creating surface for consumer unnamed-11380-8 with slotExpansion=1 for 64 slots
+
+2026-11-27 08:09:46 11380-11380 Surface I Creating surface for consumer VRI[MainActivity]#8(BLAST Consumer)8 with slotExpansion=1 for 64 slots
+
+2026-11-27 08:09:46 11380-11380 ImeTracker I com.lagradost.cloudstream3:14c5ba7c: onRequestHide at ORIGIN_CLIENT reason HIDE_WINDOW_LOST_FOCUS fromUser false userId 0 displayId 0
+
+2026-11-27 08:09:46 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:46 11380-11380 ImeTracker I com.lagradost.cloudstream3:14c5ba7c: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 08:09:46 11380-11380 InsetsController D hide(ime())
+
+2026-11-27 08:09:46 11380-11380 ImeTracker I com.lagradost.cloudstream3:69c7e960: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
