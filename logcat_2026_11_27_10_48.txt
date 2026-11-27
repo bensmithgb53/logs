@@ -1,0 +1,512 @@
+2026-11-27 10:47:55 30511-30554 HWUI D endAllActiveAnimators on 0xb400007dc19206b0 (UnprojectedRipple) with handle 0xb400007e1158b100
+
+2026-11-27 10:47:56 30511-30511 ImeTracker I com.lagradost.cloudstream3:c68ddece: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 10:47:56 30511-30511 InsetsController D hide(ime())
+
+2026-11-27 10:47:56 30511-30511 ImeTracker I com.lagradost.cloudstream3:c68ddece: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 10:47:58 30511-30511 ImeTracker I com.lagradost.cloudstream3:88b35302: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 10:47:58 30511-30511 InsetsController D hide(ime())
+
+2026-11-27 10:47:58 30511-30511 ImeTracker I com.lagradost.cloudstream3:88b35302: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 10:47:58 30511-30511 AutofillManager D view not autofillable - not passing ime action check
+
+2026-11-27 10:47:59 30511-30511 AutofillManager D view not autofillable - not passing ime action check
+
+2026-11-27 10:47:59 30511-30511 AutofillManager D view not autofillable - not passing ime action check
+
+2026-11-27 10:48:07 30511-30511 NavComponent I Navigating to fragment: 2131362328
+
+2026-11-27 10:48:07 30511-30511 ImeTracker I com.lagradost.cloudstream3:db05a283: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 10:48:07 30511-30511 InsetsController D hide(ime())
+
+2026-11-27 10:48:07 30511-30511 ImeTracker I com.lagradost.cloudstream3:db05a283: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 10:48:07 30511-30511 Resources W Drawable com.lagradost.cloudstream3:drawable/go_forward_30 has unresolved theme attributes! Consider using Resources.getDrawable(int, Theme) or Context.getDrawable(int).
+java.lang.RuntimeException
+	at android.content.res.Resources.getDrawable(Resources.java:928)
+	at com.google.android.gms.cast.framework.media.widget.zzq.zzd(com.google.android.gms:play-services-cast-framework@@22.1.0:2)
+	at com.google.android.gms.cast.framework.media.widget.zzq.zzc(com.google.android.gms:play-services-cast-framework@@22.1.0:1)
+	at com.google.android.gms.cast.framework.media.widget.MiniControllerFragment.zza(com.google.android.gms:play-services-cast-framework@@22.1.0:41)
+	at com.google.android.gms.cast.framework.media.widget.MiniControllerFragment.onCreateView(com.google.android.gms:play-services-cast-framework@@22.1.0:30)
+	at androidx.fragment.app.Fragment.performCreateView(Fragment.java:3119)
+	at androidx.fragment.app.FragmentStateManager.ensureInflatedView(FragmentStateManager.java:418)
+	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:285)
+	at androidx.fragment.app.FragmentLayoutInflaterFactory.onCreateView(FragmentLayoutInflaterFactory.java:142)
+	at android.view.LayoutInflater$FactoryMerger.onCreateView(LayoutInflater.java:223)
+	at android.view.LayoutInflater.tryCreateView(LayoutInflater.java:951)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:888)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:852)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1013)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:974)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1017)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:974)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1017)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:974)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:573)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:464)
+	at com.lagradost.cloudstream3.databinding.FragmentResultSwipeBinding.inflate(FragmentResultSwipeBinding.java:140)
+	at com.lagradost.cloudstream3.ui.result.ResultFragmentPhone$1.invoke(ResultFragmentPhone.kt:112)
+	at com.lagradost.cloudstream3.ui.result.ResultFragmentPhone$1.invoke(ResultFragmentPhone.kt:112)
+	at com.lagradost.cloudstream3.ui.BaseFragmentHelper$-CC.$default$createBinding(BaseFragment.kt:51)
+	at com.lagradost.cloudstream3.ui.BaseFragment.createBinding(BaseFragment.kt:124)
+	at com.lagradost.cloudstream3.ui.BaseFragment.onCreateView(BaseFragment.kt:160)
+	at androidx.fragment.app.Fragment.performCreateView(Fragment.java:3119)
+	at androidx.fragment.app.FragmentStateManager.createView(FragmentStateManager.java:577)
+	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:286)
+	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:2214)
+	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:2115)
+	at androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:2052)
+	at androidx.fragment.app.FragmentManager$5.run(FragmentManager.java:703)
+	at android.os.Handler.handleCallback(Handler.java:1082)
+	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+	at android.os.Handler.dispatchMessage(Handler.java:126)
+	at android.os.Looper.loopOnce(Looper.java:295)
+	at android.os.Looper.loop(Looper.java:398)
+	at android.app.ActivityThread.main(ActivityThread.java:9569)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:575)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:918)
+
+2026-11-27 10:48:07 30511-30511 CS3ExoPlayer I SET STYLE = SaveCaptionStyle(foregroundColor=-1, backgroundColor=0, windowColor=0, edgeType=1, edgeColor=-16777216, font=null, typefaceFilePath=null, elevation=20, fixedTextSize=null, edgeSize=null, removeCaptions=false, removeBloat=true, upperCase=false, bold=false, italic=false, backgroundRadius=null, alignment=null)
+
+2026-11-27 10:48:07 30511-30511 ImeTracker I com.lagradost.cloudstream3:688a7dab: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 10:48:07 30511-30511 InsetsController D hide(ime())
+
+2026-11-27 10:48:07 30511-30511 ImeTracker I com.lagradost.cloudstream3:688a7dab: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 10:48:07 30511-30560 SYNCVM I addFromUrl = https://damitv.st/live/tsdb-2600183
+
+2026-11-27 10:48:07 30511-30560 SYNCUTIL I getIdsFromUrl https://damitv.st/live/tsdb-2600183
+
+2026-11-27 10:48:07 30511-30511 CS3ExoPlayer I reloadPlayer
+
+2026-11-27 10:48:07 30511-30511 CS3ExoPlayer I releasePlayer
+
+2026-11-27 10:48:07 30511-30511 PlayerView I Handle event: PlayerAttachedEvent(player=null, source=Player)
+
+2026-11-27 10:48:07 30511-30511 View W requestLayout() improperly called by android.widget.FrameLayout{e08e84a I.E...... ......I. 0,0-0,0 #7f0a056a app:id/start_panel} during layout: running second layout pass
+
+2026-11-27 10:48:07 30511-30511 View W requestLayout() improperly called by android.widget.FrameLayout{96aa18b I.E...... ......ID 1008,0-1008,1928 #7f0a019b app:id/end_panel aid=1073742522} during layout: running second layout pass
+
+2026-11-27 10:48:07 30511-30591 RVM2 I applyMeta
+
+2026-11-27 10:48:07 30511-30511 PanelsChildGestureRegionObserver W failed to register view with ID 2131362918. already registered
+
+2026-11-27 10:48:07 30511-30560 SYNCVM I addFromUrl = https://damitv.st/live/tsdb-2600183
+
+2026-11-27 10:48:07 30511-30560 SYNCUTIL I getIdsFromUrl https://damitv.st/live/tsdb-2600183
+
+2026-11-27 10:48:07 30511-30511 View W requestLayout() improperly called by androidx.media3.ui.AspectRatioFrameLayout{955913e V.E...... ......ID 0,0-1008,450 #7f0a01bc app:id/exo_content_frame} during layout: running second layout pass
+
+2026-11-27 10:48:07 30511-30511 View W requestLayout() improperly called by android.view.View{395834a V.ED..... ......ID 0,0-1008,450 #7f0a01f1 app:id/extra_brightness_overlay} during layout: running second layout pass
+
+2026-11-27 10:48:07 30511-30511 Surface I Creating surface for consumer unnamed-30511-10 with slotExpansion=1 for 64 slots
+
+2026-11-27 10:48:07 30511-30511 Surface I Creating surface for consumer f64e8e8 SurfaceView[com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity]#10(BLAST Consumer)10 with slotExpansion=1 for 64 slots
+
+2026-11-27 10:48:08 30511-30511 CS3ExoPlayer I newInstance = {}
+
+2026-11-27 10:48:08 30511-30511 NavComponent I Navigating to fragment: 2131362326
+
+2026-11-27 10:48:08 30511-30511 ImeTracker I com.lagradost.cloudstream3:583160e3: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 10:48:08 30511-30511 InsetsController D hide(ime())
+
+2026-11-27 10:48:08 30511-30511 ImeTracker I com.lagradost.cloudstream3:583160e3: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 10:48:08 30511-30511 CS3ExoPlayer I onStop
+
+2026-11-27 10:48:08 30511-30511 CS3ExoPlayer I saveData
+
+2026-11-27 10:48:08 30511-30511 CS3ExoPlayer I handleEvent Pause
+
+2026-11-27 10:48:08 30511-30511 CS3ExoPlayer I unwrapBundle = null
+
+2026-11-27 10:48:08 30511-30511 CS3ExoPlayer I unwrapBundle = Bundle[{resumePosition=0, uuid=b32375eb-e995-4865-a844-a9ead9881f24, index=0, syncData={}}]
+
+2026-11-27 10:48:08 30511-30511 CS3ExoPlayer I SET STYLE = SaveCaptionStyle(foregroundColor=-1, backgroundColor=0, windowColor=0, edgeType=1, edgeColor=-16777216, font=null, typefaceFilePath=null, elevation=20, fixedTextSize=null, edgeSize=null, removeCaptions=false, removeBloat=true, upperCase=false, bold=false, italic=false, backgroundRadius=null, alignment=null)
+
+2026-11-27 10:48:08 30511-30511 PlayViewGen I attachGenerator with generator=com.lagradost.cloudstream3.ui.player.RepoLinkGenerator@76240e6 and index=0
+
+2026-11-27 10:48:08 30511-30511 CS3ExoPlayer I unwrapBundle = null
+
+2026-11-27 10:48:08 30511-30511 CS3ExoPlayer I unwrapBundle = Bundle[{resumePosition=0, uuid=b32375eb-e995-4865-a844-a9ead9881f24, index=0, syncData={}}]
+
+2026-11-27 10:48:08 30511-30511 PlayViewGen I loadLinks with generator=com.lagradost.cloudstream3.ui.player.RepoLinkGenerator@76240e6 and index=0
+
+2026-11-27 10:48:08 30511-30560 SYNCVM I updateUserData
+
+2026-11-27 10:48:08 30511-30511 InsetsController D Setting requestedVisibleTypes to 496 (was 503)
+
+2026-11-27 10:48:08 30511-30511 CS3ExoPlayer I reloadPlayer
+
+2026-11-27 10:48:08 30511-30511 CS3ExoPlayer I releasePlayer
+
+2026-11-27 10:48:08 30511-30511 PlayerView I Handle event: PlayerAttachedEvent(player=null, source=Player)
+
+2026-11-27 10:48:08 30511-30511 VRI[MainActivity] D WindowInsets changed: statusBars:null navigationBars:null
+
+2026-11-27 10:48:08 30511-30511 View W requestLayout() improperly called by androidx.media3.ui.AspectRatioFrameLayout{667fc2a V.E...... ......ID 0,0-1008,2244 #7f0a01bc app:id/exo_content_frame} during layout: running second layout pass
+
+2026-11-27 10:48:08 30511-30511 View W requestLayout() improperly called by android.view.View{e61b0f6 V.ED..... ......ID 0,0-1008,2244 #7f0a01f1 app:id/extra_brightness_overlay} during layout: running second layout pass
+
+2026-11-27 10:48:08 30511-30511 Surface I Creating surface for consumer unnamed-30511-11 with slotExpansion=1 for 64 slots
+
+2026-11-27 10:48:08 30511-30511 Surface I Creating surface for consumer 2345062 SurfaceView[com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity]#11(BLAST Consumer)11 with slotExpansion=1 for 64 slots
+
+2026-11-27 10:48:08 30511-30511 CS3ExoPlayer I setActiveSubtitles 0
+
+2026-11-27 10:48:08 30511-30511 CS3ExoPlayer I autoSelectFromSettings = null
+
+2026-11-27 10:48:08 30511-30511 CS3ExoPlayer I releasePlayer
+
+2026-11-27 10:48:08 30511-30511 PlayerView I Handle event: PlayerAttachedEvent(player=null, source=Player)
+
+2026-11-27 10:48:08 30511-30511 ImeTracker I com.lagradost.cloudstream3:7c48e7a1: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 10:48:08 30511-30511 InsetsController D hide(ime())
+
+2026-11-27 10:48:08 30511-30511 ImeTracker I com.lagradost.cloudstream3:7c48e7a1: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 10:48:08 30511-30511 VRI[MainActivity] D WindowInsets changed: 2244x1008 mandatorySystemGestures:[0,54,0,72]
+
+2026-11-27 10:48:08 30511-30511 View W requestLayout() improperly called by androidx.media3.ui.AspectRatioFrameLayout{667fc2a V.E...... ......ID 0,0-2244,1008 #7f0a01bc app:id/exo_content_frame aid=1073742580} during layout: running second layout pass
+
+2026-11-27 10:48:08 30511-30511 View W requestLayout() improperly called by android.view.View{e61b0f6 V.ED..... ......I. 0,0-1008,2244 #7f0a01f1 app:id/extra_brightness_overlay} during layout: running second layout pass
+
+2026-11-27 10:48:08 30511-30558 DamiTVProvider D API catalog for tsdb-2600183: 3 sources=GOLF Channel USA | Sky Sports Golf UK | Sky Sports Main Event UK
+
+2026-11-27 10:48:08 30511-30511 CS3ExoPlayer I releasePlayer
+
+2026-11-27 10:48:08 30511-30511 PlayerView I Handle event: PlayerAttachedEvent(player=null, source=Player)
+
+2026-11-27 10:48:17 30511-30558 DamiTVProvider D Resolver merged 0 distinct choices for tsdb-2600183
+
+2026-11-27 10:48:17 30511-30558 DamiTVProvider D Prepared 3 choices for tsdb-2600183: GOLF Channel USA | Sky Sports Golf UK | Sky Sports Main Event UK
+
+2026-11-27 10:48:17 30511-30558 DamiTVProvider D Extracting tsdb-2600183 choice 1 (GOLF Channel USA): https://ondemand.to/player/hls/
+
+2026-11-27 10:48:17 30511-30558 DamiTVExtractor D Extracting from URL: https://ondemand.to/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F69e817d35c.m3u8&name=GOLF%20Channel%20USA
+
+2026-11-27 10:48:17 30511-30558 DamiTVExtractor D Direct embed URL detected, using WebView extraction
+
+2026-11-27 10:48:17 30511-30558 DamiTVExtractor D Starting WebView extraction from: https://ondemand.to/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F69e817d35c.m3u8&name=GOLF%20Channel%20USA
+
+2026-11-27 10:48:17 30511-30723 DamiTVExtractor D WebView intercepted HLS URL: https://ondemand.to/player/hls/ headers=[Accept, Upgrade-Insecure-Requests, User-Agent, Referer]
+
+2026-11-27 10:48:17 30511-30511 DamiTVExtractor D JS LOG: Error
+
+2026-11-27 10:48:17 30511-30722 DamiTVExtractor D WebView intercepted HLS URL: https://rapidadexchange.com/script/suurl5.php headers=[Origin, Accept, User-Agent, Referer]
+
+2026-11-27 10:48:19 30511-30558 DamiTVExtractor D Playlist inspection ranked 2 candidates
+
+2026-11-27 10:48:19 30511-30558 LocalHlsServer D Started loopback HLS server on 127.0.0.1:46149
+
+2026-11-27 10:48:19 30511-30558 LocalHlsServer D Playlist probe 200 valid=false bytes=211380 url=https://ondemand.to/player/hls/
+
+2026-11-27 10:48:19 30511-30558 DamiTVProvider W Rejected unusable DamiTV playlist before playback: https://ondemand.to/player/hls/
+
+2026-11-27 10:48:20 30511-30558 LocalHlsServer D Playlist probe 200 valid=false bytes=1102 url=https://rapidadexchange.com/script/suurl5.php
+
+2026-11-27 10:48:20 30511-30558 DamiTVProvider W Rejected unusable DamiTV playlist before playback: https://rapidadexchange.com/script/suurl5.php
+
+2026-11-27 10:48:20 30511-30558 DamiTVProvider D Emitted 2 link(s) for choice 1; continuing source scan
+
+2026-11-27 10:48:20 30511-30558 DamiTVProvider D Extracting tsdb-2600183 choice 2 (Sky Sports Golf UK): https://ondemand.to/player/hls/
+
+2026-11-27 10:48:20 30511-30558 DamiTVExtractor D Extracting from URL: https://ondemand.to/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F9f5dca47df.m3u8&name=Sky%20Sports%20Golf%20UK
+
+2026-11-27 10:48:20 30511-30558 DamiTVExtractor D Direct embed URL detected, using WebView extraction
+
+2026-11-27 10:48:20 30511-30558 DamiTVExtractor D Starting WebView extraction from: https://ondemand.to/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F9f5dca47df.m3u8&name=Sky%20Sports%20Golf%20UK
+
+2026-11-27 10:48:20 30511-30722 DamiTVExtractor D WebView intercepted HLS URL: https://ondemand.to/player/hls/ headers=[Accept, Upgrade-Insecure-Requests, User-Agent, Referer]
+
+2026-11-27 10:48:20 30511-30511 DamiTVExtractor D JS LOG: Error
+
+2026-11-27 10:48:20 30511-30718 DamiTVExtractor D WebView intercepted HLS URL: https://rapidadexchange.com/script/suurl5.php headers=[Origin, Accept, User-Agent, Referer]
+
+2026-11-27 10:48:21 30511-30522 st.cloudstream3 I NativeAlloc concurrent mark compact GC freed 30MB AllocSpace bytes, 26(4352KB) LOS objects, 94% free, 25MB/512MB, paused 462us,1.470ms total 104.210ms
+
+2026-11-27 10:48:21 30511-30558 DamiTVExtractor D Playlist inspection ranked 2 candidates
+
+2026-11-27 10:48:22 30511-30558 LocalHlsServer D Playlist probe 200 valid=false bytes=211380 url=https://ondemand.to/player/hls/
+
+2026-11-27 10:48:22 30511-30558 DamiTVProvider W Rejected unusable DamiTV playlist before playback: https://ondemand.to/player/hls/
+
+2026-11-27 10:48:22 30511-30558 LocalHlsServer D Playlist probe 200 valid=false bytes=1326 url=https://rapidadexchange.com/script/suurl5.php
+
+2026-11-27 10:48:22 30511-30558 DamiTVProvider W Rejected unusable DamiTV playlist before playback: https://rapidadexchange.com/script/suurl5.php
+
+2026-11-27 10:48:22 30511-30558 DamiTVProvider D Emitted 2 link(s) for choice 2; continuing source scan
+
+2026-11-27 10:48:22 30511-30558 DamiTVProvider D Extracting tsdb-2600183 choice 3 (Sky Sports Main Event UK): https://ondemand.to/player/hls/
+
+2026-11-27 10:48:22 30511-30558 DamiTVExtractor D Extracting from URL: https://ondemand.to/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F4a2c801ab2.m3u8&name=Sky%20Sports%20Main%20Event%20UK
+
+2026-11-27 10:48:22 30511-30558 DamiTVExtractor D Direct embed URL detected, using WebView extraction
+
+2026-11-27 10:48:22 30511-30558 DamiTVExtractor D Starting WebView extraction from: https://ondemand.to/player/hls/?v=542&url=https%3A%2F%2Fmessi.damitv.st%2Fc%2F4a2c801ab2.m3u8&name=Sky%20Sports%20Main%20Event%20UK
+
+2026-11-27 10:48:22 30511-30723 DamiTVExtractor D WebView intercepted HLS URL: https://ondemand.to/player/hls/ headers=[Accept, Upgrade-Insecure-Requests, User-Agent, Referer]
+
+2026-11-27 10:48:22 30511-30511 DamiTVExtractor D JS LOG: Error
+
+2026-11-27 10:48:22 30511-30718 DamiTVExtractor D WebView intercepted HLS URL: https://rapidadexchange.com/script/suurl5.php headers=[Origin, Accept, User-Agent, Referer]
+
+2026-11-27 10:48:24 30511-30558 DamiTVExtractor D Playlist inspection ranked 2 candidates
+
+2026-11-27 10:48:24 30511-30558 LocalHlsServer D Playlist probe 200 valid=false bytes=211380 url=https://ondemand.to/player/hls/
+
+2026-11-27 10:48:24 30511-30558 DamiTVProvider W Rejected unusable DamiTV playlist before playback: https://ondemand.to/player/hls/
+
+2026-11-27 10:48:24 30511-30558 LocalHlsServer D Playlist probe 200 valid=false bytes=1102 url=https://rapidadexchange.com/script/suurl5.php
+
+2026-11-27 10:48:24 30511-30558 DamiTVProvider W Rejected unusable DamiTV playlist before playback: https://rapidadexchange.com/script/suurl5.php
+
+2026-11-27 10:48:24 30511-30558 DamiTVProvider D Emitted 2 link(s) for choice 3; continuing source scan
+
+2026-11-27 10:48:24 30511-30558 DamiTVProvider D Collected 0 links from 3 stream choices
+
+2026-11-27 10:48:24 30511-30511 COMPACT I showToast = No Links Found
+
+2026-11-27 10:48:24 30511-30511 Toast E setGravity() shouldn't be called on text toasts, the values won't be used
+
+2026-11-27 10:48:24 30511-30511 popFragment D Destroying Fragment
+
+2026-11-27 10:48:24 30511-30511 Surface I Creating surface for consumer unnamed-30511-12 with slotExpansion=1 for 64 slots
+
+2026-11-27 10:48:24 30511-30511 Surface I Creating surface for consumer VRI[Toast]#12(BLAST Consumer)12 with slotExpansion=1 for 64 slots
+
+2026-11-27 10:48:24 30511-30511 popFragment D Destroying Fragment
+
+2026-11-27 10:48:24 30511-30511 ImeTracker I com.lagradost.cloudstream3:06b222b1: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 10:48:24 30511-30511 InsetsController D hide(ime())
+
+2026-11-27 10:48:24 30511-30511 ImeTracker I com.lagradost.cloudstream3:06b222b1: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 10:48:24 30511-30511 CS3ExoPlayer I onStop
+
+2026-11-27 10:48:24 30511-30511 CS3ExoPlayer I saveData
+
+2026-11-27 10:48:24 30511-30511 CS3ExoPlayer I handleEvent Pause
+
+2026-11-27 10:48:24 30511-30511 Resources W Drawable com.lagradost.cloudstream3:drawable/go_forward_30 has unresolved theme attributes! Consider using Resources.getDrawable(int, Theme) or Context.getDrawable(int).
+java.lang.RuntimeException
+	at android.content.res.Resources.getDrawable(Resources.java:928)
+	at com.google.android.gms.cast.framework.media.widget.zzq.zzd(com.google.android.gms:play-services-cast-framework@@22.1.0:2)
+	at com.google.android.gms.cast.framework.media.widget.zzq.zzc(com.google.android.gms:play-services-cast-framework@@22.1.0:1)
+	at com.google.android.gms.cast.framework.media.widget.MiniControllerFragment.zza(com.google.android.gms:play-services-cast-framework@@22.1.0:41)
+	at com.google.android.gms.cast.framework.media.widget.MiniControllerFragment.onCreateView(com.google.android.gms:play-services-cast-framework@@22.1.0:30)
+	at androidx.fragment.app.Fragment.performCreateView(Fragment.java:3119)
+	at androidx.fragment.app.FragmentStateManager.ensureInflatedView(FragmentStateManager.java:418)
+	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:285)
+	at androidx.fragment.app.FragmentLayoutInflaterFactory.onCreateView(FragmentLayoutInflaterFactory.java:142)
+	at android.view.LayoutInflater$FactoryMerger.onCreateView(LayoutInflater.java:223)
+	at android.view.LayoutInflater.tryCreateView(LayoutInflater.java:951)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:888)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:852)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1013)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:974)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1017)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:974)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1017)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:974)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:573)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:464)
+	at com.lagradost.cloudstream3.databinding.FragmentResultSwipeBinding.inflate(FragmentResultSwipeBinding.java:140)
+	at com.lagradost.cloudstream3.ui.result.ResultFragmentPhone$1.invoke(ResultFragmentPhone.kt:112)
+	at com.lagradost.cloudstream3.ui.result.ResultFragmentPhone$1.invoke(ResultFragmentPhone.kt:112)
+	at com.lagradost.cloudstream3.ui.BaseFragmentHelper$-CC.$default$createBinding(BaseFragment.kt:51)
+	at com.lagradost.cloudstream3.ui.BaseFragment.createBinding(BaseFragment.kt:124)
+	at com.lagradost.cloudstream3.ui.BaseFragment.onCreateView(BaseFragment.kt:160)
+	at androidx.fragment.app.Fragment.performCreateView(Fragment.java:3119)
+	at androidx.fragment.app.FragmentStateManager.createView(FragmentStateManager.java:577)
+	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:286)
+	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:2205)
+	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:2115)
+	at androidx.fragment.app.FragmentManager.popBackStackImmediate(FragmentManager.java:1116)
+	at androidx.fragment.app.FragmentManager.popBackStackImmediate(FragmentManager.java:998)
+	at androidx.fragment.app.FragmentManager.handleOnBackPressed(FragmentManager.java:914)
+	at androidx.fragment.app.FragmentManager$1.handleOnBackPressed(FragmentManager.java:572)
+	at androidx.activity.OnBackPressedCallback$OnBackPressedEventHandler.onBackCompleted(OnBackPressedCallback.kt:172)
+	at androidx.navigationevent.NavigationEventHandler.doOnBackCompleted$navigationevent(NavigationEventHandler.kt:242)
+	at androidx.navigationevent.NavigationEventProcessor.dispatchOnCompleted(NavigationEventProcessor.kt:487)
+	at androidx.navigationevent.NavigationEventDispatcher.dispatchOnCompleted$navigationevent(NavigationEventDispatcher.kt:383)
+	at androidx.navigationevent.NavigationEventInput.dispatchOnBackCompleted(NavigationEventInput.kt:227)
+
+2026-11-27 10:48:24 30511-30511 Resources W at androidx.activity.OnBackPressedDispatcher$OnBackPressedEventInput.backCompleted(OnBackPressedDispatcher.kt:303)
+	at androidx.activity.OnBackPressedDispatcher.onBackPressed(OnBackPressedDispatcher.kt:248)
+	at com.lagradost.cloudstream3.utils.BackPressedCallbackHelper$CallbackHelper.runDefault(BackPressedCallbackHelper.kt:22)
+	at com.lagradost.cloudstream3.MainActivity.onCreate$lambda$25(MainActivity.kt:2059)
+	at com.lagradost.cloudstream3.MainActivity$$ExternalSyntheticLambda1.invoke(D8$$SyntheticClass:0)
+	at com.lagradost.cloudstream3.utils.BackPressedCallbackHelper$attachBackPressedCallback$newCallback$1.handleOnBackPressed(BackPressedCallbackHelper.kt:40)
+	at androidx.activity.OnBackPressedCallback$OnBackPressedEventHandler.onBackCompleted(OnBackPressedCallback.kt:172)
+	at androidx.navigationevent.NavigationEventHandler.doOnBackCompleted$navigationevent(NavigationEventHandler.kt:242)
+	at androidx.navigationevent.NavigationEventProcessor.dispatchOnCompleted(NavigationEventProcessor.kt:487)
+	at androidx.navigationevent.NavigationEventDispatcher.dispatchOnCompleted$navigationevent(NavigationEventDispatcher.kt:383)
+	at androidx.navigationevent.NavigationEventInput.dispatchOnBackCompleted(NavigationEventInput.kt:227)
+	at androidx.activity.OnBackPressedDispatcher$OnBackPressedEventInput.backCompleted(OnBackPressedDispatcher.kt:303)
+	at androidx.activity.OnBackPressedDispatcher.onBackPressed(OnBackPressedDispatcher.kt:248)
+	at com.lagradost.cloudstream3.utils.UIHelper$popCurrentPage$1.invokeSuspend(UIHelper.kt:294)
+	at com.lagradost.cloudstream3.utils.UIHelper$popCurrentPage$1.invoke(UIHelper.kt:8)
+	at com.lagradost.cloudstream3.utils.UIHelper$popCurrentPage$1.invoke(UIHelper.kt:4)
+	at com.lagradost.cloudstream3.utils.Coroutines$main$1.invokeSuspend(Coroutines.kt:20)
+	at com.lagradost.cloudstream3.utils.Coroutines$main$1.invoke(Coroutines.kt:8)
+	at com.lagradost.cloudstream3.utils.Coroutines$main$1.invoke(Coroutines.kt:4)
+	at com.lagradost.cloudstream3.mvvm.ArchComponentExtKt$launchSafe$obj$1.invokeSuspend(ArchComponentExt.kt:156)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at android.os.Handler.handleCallback(Handler.java:1082)
+	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+	at android.os.Handler.dispatchMessage(Handler.java:126)
+	at android.os.Looper.loopOnce(Looper.java:295)
+	at android.os.Looper.loop(Looper.java:398)
+	at android.app.ActivityThread.main(ActivityThread.java:9569)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:575)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:918)
+
+2026-11-27 10:48:24 30511-30511 CS3ExoPlayer I SET STYLE = SaveCaptionStyle(foregroundColor=-1, backgroundColor=0, windowColor=0, edgeType=1, edgeColor=-16777216, font=null, typefaceFilePath=null, elevation=20, fixedTextSize=null, edgeSize=null, removeCaptions=false, removeBloat=true, upperCase=false, bold=false, italic=false, backgroundRadius=null, alignment=null)
+
+2026-11-27 10:48:24 30511-30511 ImeTracker I com.lagradost.cloudstream3:2f47e29c: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 10:48:24 30511-30511 InsetsController D hide(ime())
+
+2026-11-27 10:48:24 30511-30511 ImeTracker I com.lagradost.cloudstream3:2f47e29c: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 10:48:24 30511-30558 SYNCVM I addFromUrl = https://damitv.st/live/tsdb-2600183
+
+2026-11-27 10:48:24 30511-30558 SYNCUTIL I getIdsFromUrl https://damitv.st/live/tsdb-2600183
+
+2026-11-27 10:48:24 30511-30511 InsetsController D Setting requestedVisibleTypes to 503 (was 496)
+
+2026-11-27 10:48:24 30511-30558 SYNCVM I addFromUrl = https://damitv.st/live/tsdb-2600183
+
+2026-11-27 10:48:24 30511-30558 SYNCUTIL I getIdsFromUrl https://damitv.st/live/tsdb-2600183
+
+2026-11-27 10:48:24 30511-30511 CS3ExoPlayer I reloadPlayer
+
+2026-11-27 10:48:24 30511-30511 CS3ExoPlayer I releasePlayer
+
+2026-11-27 10:48:24 30511-30511 PlayerView I Handle event: PlayerAttachedEvent(player=null, source=Player)
+
+2026-11-27 10:48:24 30511-30511 VRI[MainActivity] D WindowInsets changed: statusBars:[0,54,0,0] navigationBars:[0,0,0,54]
+
+2026-11-27 10:48:24 30511-30511 View W requestLayout() improperly called by androidx.media3.ui.AspectRatioFrameLayout{3059107 V.E...... ......ID 0,0-2095,450 #7f0a01bc app:id/exo_content_frame} during layout: running second layout pass
+
+2026-11-27 10:48:24 30511-30511 View W requestLayout() improperly called by android.view.View{4e036a3 V.ED..... ......ID 0,0-2095,450 #7f0a01f1 app:id/extra_brightness_overlay} during layout: running second layout pass
+
+2026-11-27 10:48:24 30511-30511 View W requestLayout() improperly called by android.widget.FrameLayout{ee79a02 I.E...... ......I. 0,0-0,0 #7f0a056a app:id/start_panel} during layout: running second layout pass
+
+2026-11-27 10:48:24 30511-30511 View W requestLayout() improperly called by android.widget.FrameLayout{1c8cf6c I.E...... ......ID 2095,0-2095,787 #7f0a019b app:id/end_panel aid=1073742522} during layout: running second layout pass
+
+2026-11-27 10:48:24 30511-30511 Surface I Creating surface for consumer unnamed-30511-13 with slotExpansion=1 for 64 slots
+
+2026-11-27 10:48:24 30511-30511 Surface I Creating surface for consumer 95f8419 SurfaceView[com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity]#13(BLAST Consumer)13 with slotExpansion=1 for 64 slots
+
+2026-11-27 10:48:24 30511-30511 ImeTracker I com.lagradost.cloudstream3:a709ba28: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 10:48:24 30511-30511 InsetsController D hide(ime())
+
+2026-11-27 10:48:24 30511-30511 ImeTracker I com.lagradost.cloudstream3:a709ba28: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 10:48:24 30511-30511 VRI[MainActivity] D WindowInsets changed: 1008x2244 navigationBars:null mandatorySystemGestures:[0,176,0,72]
+
+2026-11-27 10:48:24 30511-30511 View W requestLayout() improperly called by androidx.media3.ui.AspectRatioFrameLayout{3059107 V.E...... ......ID 0,0-1008,450 #7f0a01bc app:id/exo_content_frame aid=1073742544} during layout: running second layout pass
+
+2026-11-27 10:48:24 30511-30511 View W requestLayout() improperly called by android.view.View{4e036a3 V.ED..... ......I. 0,0-2095,450 #7f0a01f1 app:id/extra_brightness_overlay} during layout: running second layout pass
+
+2026-11-27 10:48:25 30511-30579 SYNCVM I updateUserData
+
+2026-11-27 10:48:25 30511-30511 CS3ExoPlayer I releasePlayer
+
+2026-11-27 10:48:25 30511-30511 PlayerView I Handle event: PlayerAttachedEvent(player=null, source=Player)
+
+2026-11-27 10:48:25 30511-30511 VRI[MainActivity] D WindowInsets changed: statusBars:[0,149,0,0] navigationBars:[0,0,0,54]
+
+2026-11-27 10:48:26 30511-30511 ImeTracker I com.lagradost.cloudstream3:292b3d6d: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 10:48:26 30511-30511 InsetsController D hide(ime())
+
+2026-11-27 10:48:26 30511-30511 ImeTracker I com.lagradost.cloudstream3:292b3d6d: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 10:48:26 30511-30511 CS3ExoPlayer I onStop
+
+2026-11-27 10:48:26 30511-30511 CS3ExoPlayer I saveData
+
+2026-11-27 10:48:26 30511-30511 CS3ExoPlayer I handleEvent Pause
+
+2026-11-27 10:48:26 30511-30511 CS3ExoPlayer I releasePlayer
+
+2026-11-27 10:48:26 30511-30511 PlayerView I Handle event: PlayerAttachedEvent(player=null, source=Player)
+
+2026-11-27 10:48:28 30511-30511 ImeTracker I com.lagradost.cloudstream3:569c163f: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 10:48:28 30511-30511 InsetsController D hide(ime())
+
+2026-11-27 10:48:28 30511-30511 ImeTracker I com.lagradost.cloudstream3:569c163f: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 10:48:29 30511-30511 NavComponent I Navigating to fragment: 2131361882
+
+2026-11-27 10:48:29 30511-30511 ImeTracker I com.lagradost.cloudstream3:9c47746c: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser true userId 0 displayId 0
+
+2026-11-27 10:48:29 30511-30511 InsetsController D hide(ime())
+
+2026-11-27 10:48:29 30511-30511 ImeTracker I com.lagradost.cloudstream3:9c47746c: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 10:48:30 30511-30511 ImeTracker I com.lagradost.cloudstream3:ed610403: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 10:48:30 30511-30511 InsetsController D hide(ime())
+
+2026-11-27 10:48:30 30511-30511 ImeTracker I com.lagradost.cloudstream3:ed610403: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 10:48:31 30511-30511 NavComponent I Navigating to fragment: 2131361881
+
+2026-11-27 10:48:31 30511-30511 ImeTracker I com.lagradost.cloudstream3:15999673: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser true userId 0 displayId 0
+
+2026-11-27 10:48:31 30511-30511 InsetsController D hide(ime())
+
+2026-11-27 10:48:31 30511-30511 ImeTracker I com.lagradost.cloudstream3:15999673: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 10:48:31 30511-30511 ImeTracker I com.lagradost.cloudstream3:35e118fc: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+
+2026-11-27 10:48:31 30511-30511 InsetsController D hide(ime())
+
+2026-11-27 10:48:31 30511-30511 ImeTracker I com.lagradost.cloudstream3:35e118fc: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 10:48:32 30511-30511 NavComponent I Navigating to fragment: 2131361887
+
+2026-11-27 10:48:32 30511-30511 ImeTracker I com.lagradost.cloudstream3:8b47888d: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser true userId 0 displayId 0
+
+2026-11-27 10:48:32 30511-30511 InsetsController D hide(ime())
+
+2026-11-27 10:48:32 30511-30511 ImeTracker I com.lagradost.cloudstream3:8b47888d: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 10:48:34 30511-30511 WindowOnBackDispatcher D setTopOnBackInvokedCallback (unwrapped): android.app.Dialog$$ExternalSyntheticLambda2@f214759
+
+2026-11-27 10:48:34 30511-30511 WindowOnBackDispatcher D setTopOnBackInvokedCallback (unwrapped): androidx.navigationevent.OnBackInvokedInput$createOnBackAnimationCallback$1@cbeaf1e
+
+2026-11-27 10:48:34 30511-30581 WindowOnBackDispatcher D setOnBackInvokedCallbackInfo: androidx.navigationevent.OnBackInvokedInput$createOnBackAnimationCallback$1@cbeaf1e
+
+2026-11-27 10:48:34 30511-30511 Surface I Creating surface for consumer unnamed-30511-14 with slotExpansion=1 for 64 slots
+
+2026-11-27 10:48:34 30511-30511 Surface I Creating surface for consumer VRI[MainActivity]#14(BLAST Consumer)14 with slotExpansion=1 for 64 slots
+
+2026-11-27 10:48:34 30511-30511 ImeTracker I com.lagradost.cloudstream3:19692977: onRequestHide at ORIGIN_CLIENT reason HIDE_WINDOW_LOST_FOCUS fromUser false userId 0 displayId 0
+
+2026-11-27 10:48:34 30511-30511 InsetsController D hide(ime())
+
+2026-11-27 10:48:34 30511-30511 ImeTracker I com.lagradost.cloudstream3:19692977: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
+2026-11-27 10:48:34 30511-30511 InsetsController D hide(ime())
+
+2026-11-27 10:48:34 30511-30511 ImeTracker I com.lagradost.cloudstream3:1b5df625: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+
